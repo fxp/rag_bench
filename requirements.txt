@@ -1,1 +1,11 @@
 lxml
+osp
+numpy
+pandas
+matplotlib
+PIL
+seaborn
+tabulate
+# goolge AI / Gemini
+anthropic
+openai
