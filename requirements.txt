@@ -3,9 +3,9 @@ osp
 numpy
 pandas
 matplotlib
-PIL
+pillow
 seaborn
 tabulate
-# goolge AI / Gemini
+# pip install -q -U google-generativeai
 anthropic
 openai
