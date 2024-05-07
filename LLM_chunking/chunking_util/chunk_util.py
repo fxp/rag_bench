@@ -5,18 +5,17 @@ Author @ Lin Shi
 Github: Slimshilin
 Date: 2024/05/01
 '''
-from smp import load, dump
+from .smp import load, dump
 from functools import partial
 import os
-import osp
-import tqdm
+import os.path as osp
+from tqdm import tqdm
 import pandas as pd
 from LLM_chunking.chat_api import OpenAIWrapper,ClaudeWrapper, GeminiWrapper
 from LLM_chunking.prompts.system_prompt import build_prompt
+import csv
 
 def llm_semantic_chunk(data, llm, failure_count=5):
-    # Assigns the filename of the data to a variable and model llm
-    data_name = data
     if 'gpt' in llm:
         model = partial(OpenAIWrapper, llm, retry=10, timeout=150, verbose=True)()
     elif 'claude' in llm:
@@ -25,12 +24,16 @@ def llm_semantic_chunk(data, llm, failure_count=5):
         model = partial(GeminiWrapper, llm, retry=20, timeout=150, verbose=True)()
         
     # Extracts the base name of the data file for later use in naming output directories and files.
-    data_base = data_name.split('/')[-1].split('.')[0]
+    data_name = data.split('/')[-1].split('.')[0]
+
+    # Defines the target name for output chunking results file
+    target_name = f'chunking_output-{llm}.tsv'
+
     # Loads the data from the file.
-    data = load(data_name)
+    data = load(data)
 
     # Creates the directory for storing results.
-    root = f'output/chunk_{data_name}'
+    root = f'output/chunk_{data_name}_{llm}'
     os.makedirs(root, exist_ok=True)
 
     # Sets up a temporary file for intermediate results.
@@ -39,9 +42,12 @@ def llm_semantic_chunk(data, llm, failure_count=5):
     # Creates prompts.
     prompts = [build_prompt(data.iloc[i]) for i in range(len(data))]
 
+    # print(prompts)
+
     # Maps comparison indices to their respective prompts.
     prompts_map = {x: p for x, p in zip(data.index, prompts)}
 
+    ans = {}
 
     # Support resuming
     # Checks if a temporary file exists with some results and loads them.
@@ -79,6 +85,20 @@ def llm_semantic_chunk(data, llm, failure_count=5):
     if len(ans) - len(ans_ok) >= failure_count:
         print(f'{len(ans) - len(ans_ok)} results failed, which is more than {failure_count} records. Will not generate the inference result tsv. ')
         exit(-1)
+    
+    # Convert the dictionary to a DataFrame before saving, including the original column
+    results = pd.DataFrame.from_dict(ans, orient='index', columns=[f'semantic_chunking_output-{llm}'])
+    results.index.name = 'id'
+
+    # Add the original content column from the `data` DataFrame
+    results = results.join(data[['content_to_chunk']])
+
+    # Reorder columns to ensure original content appears first
+    results = results[['content_to_chunk', f'semantic_chunking_output-{llm}']]
+
+    # Saves the combined data to a file using the `dump` function
+    dump(results, f'{root}/{target_name}', quoting=csv.QUOTE_ALL)
+    return results
 
 
 def parse_semantic_chunking_output(semantic_chuking_output: str, original_complete_content: str) -> pd.DataFrame:
