@@ -1,0 +1,3 @@
+[console_scripts]
+llm_infer = subeval.chat_api.inference:inference_call
+sub_eval = subeval.subjective.sub_eval:subeval_call

@@ -1,0 +1,1 @@
+python3 subeval/subjective/sub_eval.py --data data/klg_base_10_chunked.csv --model lc-percentile lc-standard_deviation lc-interquartile gpt-3.5-turbo-1106 gpt-4-0613 --refm gpt-3.5-turbo-1106 --judge gpt-3.5-turbo-1106 --eval-nopt 2 --eval-proc 1 --mode dual

@@ -1,0 +1,14 @@
+Reponse length
++---+-----------------------+-------+--------------------+
+|   |         model         | mean  |        std         |
++---+-----------------------+-------+--------------------+
+| 0 |  gpt-3.5-turbo-1106   | 430.4 | 220.67088616308223 |
+| 1 |     lc-percentile     | 286.1 | 151.66308054368406 |
+| 2 | lc-standard_deviation | 286.1 | 151.66308054368406 |
+| 3 |   lc-interquartile    | 286.1 | 151.66308054368406 |
+| 4 |      gpt-4-0613       | 302.7 | 96.72543615823088  |
++---+-----------------------+-------+--------------------+
+Total comparisons: 100. Failed to response: 0
+Total comparisons: 100. Non exact matches:  80
+Extracted 80 answers from the responses (extraction success rate 100.00%)
+14 out of 80 answers are consistent. (A vs. B <-> B vs. A) The consistent rate is 17.50%

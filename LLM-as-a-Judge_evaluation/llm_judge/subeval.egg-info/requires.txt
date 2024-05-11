@@ -1,0 +1,14 @@
+numpy>=1.23.4
+openai
+requests
+tqdm
+pandas>=1.5.3
+tiktoken
+rich
+portalocker
+timeout-decorator
+pillow
+matplotlib
+seaborn
+tabulate
+openpyxl

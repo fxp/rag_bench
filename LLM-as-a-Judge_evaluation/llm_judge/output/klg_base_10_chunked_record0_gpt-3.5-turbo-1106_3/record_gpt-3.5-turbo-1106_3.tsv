@@ -1,0 +1,896 @@
+"cmp_index"	"question"	"answer1"	"answer2"	"A"	"B"	"reference_answer"	"evaluating_guidance"	"task"	"gpt-3.5-turbo-1106"
+"question0;gpt-3.5-turbo-1106;lc-percentile"	"Semantic chunking of the following content: 购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。"	"1:::[购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，]|||[购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，]
+2:::[北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。]|||[北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。]
+3:::[另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。]|||[另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。]"	"1:::购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。"	"gpt-3.5-turbo-1106"	"lc-percentile"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it is well-formatted and clearly-structured, with each chunk of content separated and labeled. This makes it easier to read and understand.
+2. Response 1 includes all the required key components and does not miss any important information, while Response 2 is missing the chunking and labeling of the content, making it less clear and structured."
+"question0;lc-percentile;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。"	"1:::购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。"	"1:::[购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，]|||[购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，]
+2:::[北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。]|||[北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。]
+3:::[另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。]|||[另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。]"	"lc-percentile"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it provides a complete and well-structured chunking of the content without unnecessary repetition. It covers all the key components of the original content in a clear and concise manner.
+2. Response 2, while also providing a complete chunking, includes unnecessary repetition and is not as well-structured as Response 1. Therefore, it does not score as highly in terms of clarity and structure."
+"question1;gpt-3.5-turbo-1106;lc-percentile"	"Semantic chunking of the following content: 办理新车上牌手续可以由他人代办，需要提供车主本人的身份证（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书。其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明。机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书。"	"1:::[办理新车上牌手续可以由他人代办，需要提供车主本人的身份证]|||[办理新车上牌手续可以由他人代办]
+2:::[（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书]|||[需要提供车主本人的身份证；若车主身份证是外地核发的，还需提供居住证或居住登记卡，代办人的身份证以及车主出具的书面委托书]
+3:::[其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明]|||[其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明]
+4:::[机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书]|||[机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书]"	"1:::办理新车上牌手续可以由他人代办，需要提供车主本人的身份证（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书。其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明。机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书。"	"gpt-3.5-turbo-1106"	"lc-percentile"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it provides a well-formatted and clearly-structured semantic chunking of the content, breaking it down into separate components for easier understanding.
+2. Response 1 is better as it includes all the required key components of the content, ensuring that no information is missed.
+3. Response 1 is better because it avoids being verbose or repetitive, presenting the information concisely and without unnecessary repetition."
+"question1;lc-percentile;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 办理新车上牌手续可以由他人代办，需要提供车主本人的身份证（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书。其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明。机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书。"	"1:::办理新车上牌手续可以由他人代办，需要提供车主本人的身份证（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书。其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明。机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书。"	"1:::[办理新车上牌手续可以由他人代办，需要提供车主本人的身份证]|||[办理新车上牌手续可以由他人代办]
+2:::[（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书]|||[需要提供车主本人的身份证；若车主身份证是外地核发的，还需提供居住证或居住登记卡，代办人的身份证以及车主出具的书面委托书]
+3:::[其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明]|||[其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明]
+4:::[机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书]|||[机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书]"	"lc-percentile"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it provides the complete and required information in a clear and well-structured manner. It includes all the necessary details without being verbose or repetitive.
+2. Response 2, while it does chunk the content, it is unnecessarily repetitive and verbose, which goes against the scoring criteria. It does not provide any additional value compared to Response 1 and lacks the clear and concise structure."
+"question2;gpt-3.5-turbo-1106;lc-percentile"	"Semantic chunking of the following content: 机动车在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"1:::[机动车]...[注销登记]|||在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。
+2:::[原机动车所有人]...[申请办理机动车转移登记时]|||但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。
+3:::[申请人符合以上条件]...[直接告知工作人员申请使用原号牌]|||若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"1:::机动车在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"gpt-3.5-turbo-1106"	"lc-percentile"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it is well-formatted and clearly-structured, with each condition and requirement presented in a separate chunk, making it easier to understand and follow.
+2. Response 1 provides a clear semantic chunking of the content, making it easier to identify the key components and requirements for the process of transferring vehicle registration.
+3. Response 1 is not verbose or repetitive, and it includes all the required key components without missing any important details."
+"question2;lc-percentile;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 机动车在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"1:::机动车在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"1:::[机动车]...[注销登记]|||在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。
+2:::[原机动车所有人]...[申请办理机动车转移登记时]|||但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。
+3:::[申请人符合以上条件]...[直接告知工作人员申请使用原号牌]|||若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"lc-percentile"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it provides a complete and well-structured chunking of the content, including all the required key components in a clear and concise manner.
+2. Response 1 is well-formatted and clearly-structured, giving it extra credit according to the scoring criteria.
+3. Response 2, while also providing a complete chunking, is more verbose and repetitive in its presentation, which is considered negatively based on the extent."
+"question3;gpt-3.5-turbo-1106;lc-percentile"	"Semantic chunking of the following content: 依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”。本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证。"	"1:::依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”|||摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制
+2:::本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证|||本市在城六区内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证"	"1:::依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”。本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证。"	"gpt-3.5-turbo-1106"	"lc-percentile"	""	""	"semantic chunking"	"Choice: C
+Reason:
+1. Both responses provide the required semantic chunking of the content, including the specific regulations and restrictions mentioned in the original text.
+2. Both responses are well-formatted and clearly-structured, with each chunk of information separated and labeled appropriately.
+3. There is no significant difference in the quality or completeness of the two responses, leading to a tie in evaluation."
+"question3;lc-percentile;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”。本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证。"	"1:::依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”。本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证。"	"1:::依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”|||摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制
+2:::本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证|||本市在城六区内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证"	"lc-percentile"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason: 
+1. Response 1 provides the complete semantic chunking of the content, including all the required key components, while Response 2 is missing the required key components.
+2. Response 1 is well-formatted and clearly-structured, providing the information in a concise and organized manner. In contrast, Response 2 is verbose and repetitive, which goes against the scoring criteria."
+"question4;gpt-3.5-turbo-1106;lc-percentile"	"Semantic chunking of the following content: 您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。"	"1:::[您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。]|||[完成注册后可在网上根据提示进行预选号牌操作]
+2:::[如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。]|||[您可在互联网平台上进行模拟选号或者查看操作指南]
+3:::[另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。]|||[异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理]
+4:::[如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。]|||[通过现场“50选1”的方式进行选号]
+5:::[或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。]|||[提出申请使用原号牌]
+6:::[但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。]|||[若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌]"	"1:::您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。"	"gpt-3.5-turbo-1106"	"lc-percentile"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it provides a well-formatted and clearly-structured breakdown of the content into distinct semantic chunks, making it easier to understand and process the information.
+2. Response 1 avoids verbosity and repetition, focusing on the key components of the content without unnecessary elaboration.
+3. Response 1 includes all the required key components of the content, ensuring that no important information is missing."
+"question4;lc-percentile;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。"	"1:::您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。"	"1:::[您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。]|||[完成注册后可在网上根据提示进行预选号牌操作]
+2:::[如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。]|||[您可在互联网平台上进行模拟选号或者查看操作指南]
+3:::[另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。]|||[异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理]
+4:::[如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。]|||[通过现场“50选1”的方式进行选号]
+5:::[或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。]|||[提出申请使用原号牌]
+6:::[但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。]|||[若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌]"	"lc-percentile"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 provides a complete and well-structured chunking of the content, covering all the key components without being verbose or repetitive.
+2. Response 2, while also providing a chunking of the content, is less clear and well-structured compared to Response 1. It breaks down the content into smaller parts, but it lacks the clarity and completeness of Response 1."
+"question5;gpt-3.5-turbo-1106;lc-percentile"	"Semantic chunking of the following content: 1、在国内购买的机动车，其来历证明是全国统一的机动车销售发票。在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；2、机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。"	"1:::在国内购买的机动车，其来历证明是全国统一的机动车销售发票。|||国内购买的机动车
+2:::在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；|||国外购买的机动车
+3:::机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。|||机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车"	"1:::1、在国内购买的机动车，其来历证明是全国统一的机动车销售发票。在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；2、机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。"	"gpt-3.5-turbo-1106"	"lc-percentile"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it provides a clear and well-structured semantic chunking of the content, separating the different requirements for the origin proof of domestically purchased vehicles, internationally purchased vehicles, and vehicles purchased by organizations and then transferred to unregistered units. 
+2. Response 1 is more concise and to the point, avoiding unnecessary repetition or verbosity. 
+3. Both responses are well-formatted, but Response 1's clear separation of the different requirements gives it an extra credit for being clearly-structured."
+"question5;lc-percentile;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 1、在国内购买的机动车，其来历证明是全国统一的机动车销售发票。在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；2、机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。"	"1:::1、在国内购买的机动车，其来历证明是全国统一的机动车销售发票。在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；2、机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。"	"1:::在国内购买的机动车，其来历证明是全国统一的机动车销售发票。|||国内购买的机动车
+2:::在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；|||国外购买的机动车
+3:::机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。|||机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车"	"lc-percentile"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better formatted and clearly structured, as it presents the content in a clear and concise manner without unnecessary repetition.
+2. Response 1 includes all the required key components without missing any part of the original content.
+3. Response 2, on the other hand, is verbose and repetitive, with unnecessary repetition of the same information, which does not align with the evaluating guidance."
+"question6;gpt-3.5-turbo-1106;lc-percentile"	"Semantic chunking of the following content: 1、机动车整车厂生产的汽车、摩托车、挂车，其出厂合格证明是该厂出具的机动车整车出厂合格证；&#10;2、使用国产或者进口底盘改装的机动车，其出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;3、使用国产或者进口整车改装的机动车，其出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;4、监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车，未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代。"	"1:::机动车整车厂生产的汽车...出厂合格证明是该厂出具的机动车整车出厂合格证
+2:::使用国产或者进口底盘改装的机动车...出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证
+3:::使用国产或者进口整车改装的机动车...出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证
+4:::监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车...未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代"	"1:::1、机动车整车厂生产的汽车、摩托车、挂车，其出厂合格证明是该厂出具的机动车整车出厂合格证；&#10;2、使用国产或者进口底盘改装的机动车，其出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;3、使用国产或者进口整车改装的机动车，其出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;4、监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车，未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代。"	"gpt-3.5-turbo-1106"	"lc-percentile"	""	""	"semantic chunking"	"Choice: C
+Reason:
+1. Both responses provide a complete semantic chunking of the content, covering all the key components required.
+2. Response 1 is well-formatted and clearly-structured, providing each point in a separate line, making it easier to read and understand. Response 2, on the other hand, is a bit verbose and repetitive due to the inclusion of the same content multiple times.
+3. Both responses are equally comprehensive and complete, but the better formatting and structure of Response 1 give it a slight edge."
+"question6;lc-percentile;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 1、机动车整车厂生产的汽车、摩托车、挂车，其出厂合格证明是该厂出具的机动车整车出厂合格证；&#10;2、使用国产或者进口底盘改装的机动车，其出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;3、使用国产或者进口整车改装的机动车，其出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;4、监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车，未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代。"	"1:::1、机动车整车厂生产的汽车、摩托车、挂车，其出厂合格证明是该厂出具的机动车整车出厂合格证；&#10;2、使用国产或者进口底盘改装的机动车，其出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;3、使用国产或者进口整车改装的机动车，其出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;4、监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车，未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代。"	"1:::机动车整车厂生产的汽车...出厂合格证明是该厂出具的机动车整车出厂合格证
+2:::使用国产或者进口底盘改装的机动车...出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证
+3:::使用国产或者进口整车改装的机动车...出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证
+4:::监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车...未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代"	"lc-percentile"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: B
+Reason:
+1. Response 2 is better formatted and clearly structured, with each point being separated and easy to read.
+2. Response 1 is verbose and repetitive, as it includes unnecessary characters and does not provide any additional information compared to Response 2."
+"question7;gpt-3.5-turbo-1106;lc-percentile"	"Semantic chunking of the following content: 1、进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》；&#10;2、其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》；&#10;3、海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》；&#10;4、国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》。"	"1:::进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》|||进口汽车的进口凭证
+2:::其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》|||其他进口机动车的进口凭证
+3:::海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》|||海关监管的机动车的进口凭证
+4:::国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》|||国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证"	"1:::1、进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》；&#10;2、其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》；&#10;3、海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》；&#10;4、国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》。"	"gpt-3.5-turbo-1106"	"lc-percentile"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it provides a clear and well-structured semantic chunking of the content, separating each point with a clear delimiter and labeling each chunk with a specific number.
+2. Response 2 is repetitive and verbose, as it includes unnecessary characters and does not provide the same level of clear structure as Response 1."
+"question7;lc-percentile;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 1、进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》；&#10;2、其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》；&#10;3、海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》；&#10;4、国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》。"	"1:::1、进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》；&#10;2、其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》；&#10;3、海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》；&#10;4、国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》。"	"1:::进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》|||进口汽车的进口凭证
+2:::其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》|||其他进口机动车的进口凭证
+3:::海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》|||海关监管的机动车的进口凭证
+4:::国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》|||国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证"	"lc-percentile"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it provides a complete and well-structured semantic chunking of the content without any missing components.
+2. Response 1 is more concise and does not contain any unnecessary repetition, making it a better choice based on the scoring criteria."
+"question8;gpt-3.5-turbo-1106;lc-percentile"	"Semantic chunking of the following content: 请先与转入地交管部门确认是否能接收该车，如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场。办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记。在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市。完成交易后，买方可向交易地车辆管理所申请办理转入手续。京牌小客车完成过户手续后，原车主可以申请更新指标。"	"1:::[请先与转入地交管部门确认是否能接收该车]|||[确认是否能接收该车]
+2:::[如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场]|||[选择在下列机动车交易市场办理交易]
+3:::[办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记]|||[办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记]
+4:::[在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市]|||[在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续]
+5:::[完成交易后，买方可向交易地车辆管理所申请办理转入手续]|||[完成交易后，买方可向交易地车辆管理所申请办理转入手续]
+6:::[京牌小客车完成过户手续后，原车主可以申请更新指标]|||[京牌小客车完成过户手续后，原车主可以申请更新指标]"	"1:::请先与转入地交管部门确认是否能接收该车，如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场。办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记。在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市。完成交易后，买方可向交易地车辆管理所申请办理转入手续。京牌小客车完成过户手续后，原车主可以申请更新指标。"	"gpt-3.5-turbo-1106"	"lc-percentile"	""	""	"semantic chunking"	"Choice: C
+Reason:
+1. Both responses are identical in terms of content and structure, so there is no difference in completeness or key components.
+2. Both responses are well-formatted and clearly-structured, with the semantic chunking of the content making it easy to understand.
+3. There is no verbosity or repetition in either response, so they are equal in this aspect."
+"question8;lc-percentile;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 请先与转入地交管部门确认是否能接收该车，如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场。办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记。在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市。完成交易后，买方可向交易地车辆管理所申请办理转入手续。京牌小客车完成过户手续后，原车主可以申请更新指标。"	"1:::请先与转入地交管部门确认是否能接收该车，如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场。办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记。在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市。完成交易后，买方可向交易地车辆管理所申请办理转入手续。京牌小客车完成过户手续后，原车主可以申请更新指标。"	"1:::[请先与转入地交管部门确认是否能接收该车]|||[确认是否能接收该车]
+2:::[如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场]|||[选择在下列机动车交易市场办理交易]
+3:::[办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记]|||[办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记]
+4:::[在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市]|||[在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续]
+5:::[完成交易后，买方可向交易地车辆管理所申请办理转入手续]|||[完成交易后，买方可向交易地车辆管理所申请办理转入手续]
+6:::[京牌小客车完成过户手续后，原车主可以申请更新指标]|||[京牌小客车完成过户手续后，原车主可以申请更新指标]"	"lc-percentile"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it provides the complete and original content without any alterations or omissions.
+2. Response 1 is well-formatted and clearly-structured, making it easier to read and understand."
+"question9;gpt-3.5-turbo-1106;lc-percentile"	"Semantic chunking of the following content: 您好，外省区市号牌小客车转入本市手续流程如下：&#10;1、若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。&#10;若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。&#10;2、申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。需携带以下材料：&#10;（1）现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；&#10;（2）由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;&#10;（3）机动车登记证书；&#10;（4）机动车行驶证；&#10;（5）机动车来历证明（发票）；&#10;（6）超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；&#10;（7）申请小、微载客汽车转让登记或转入本市的，还需提交本市小客车配置或更新指标确认通知书。&#10;若现机动车所有人是单位，身份证明是：单位的《组织机构代码证书》或包含统一社会信用代码的证件、加盖单位公章的委托书和被委托人的身份证明。"	"1:::您好，外省区市号牌小客车转入本市手续流程如下：|||外省区市号牌小客车转入本市手续流程如下
+2:::若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。|||申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续
+3:::申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。|||申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续，最后再办理转入本市手续
+4:::若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。|||转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案
+5:::申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。|||申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理
+6:::需携带以下材料：|||需携带以下材料
+7:::现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；|||现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明
+8:::由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;|||由代理人代理的，还需提交代理人身份证明，以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书
+9:::机动车登记证书；|||机动车登记证书
+10:::机动车行驶证；|||机动车行驶证
+11:::机动车来历证明（发票）；|||机动车来历证明（发票）
+12:::超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；|||超过检验有效期的机动车，"	"1:::您好，外省区市号牌小客车转入本市手续流程如下：&#10;1、若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。&#10;若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。&#10;2、申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。需携带以下材料：&#10;（1）现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；&#10;（2）由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;&#10;（3）机动车登记证书；&#10;（4）机动车行驶证；&#10;（5）机动车来历证明（发票）；&#10;（6）超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；&#10;（7）申请小、微载客汽车转让登记或转入本市的，还需提交本市小客车配置或更新指标确认通知书。&#10;若现机动车所有人是单位，身份证明是：单位的《组织机构代码证书》或包含统一社会信用代码的证件、加盖单位公章的委托书和被委托人的身份证明。"	"gpt-3.5-turbo-1106"	"lc-percentile"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better structured and clearly formatted, with each step of the process clearly delineated.
+2. Response 1 is more concise and to the point, avoiding unnecessary repetition or verbosity.
+3. Response 1 includes all the required key components of the content, while Response 2 includes some unnecessary repetition and lacks clear structure."
+"question9;lc-percentile;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 您好，外省区市号牌小客车转入本市手续流程如下：&#10;1、若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。&#10;若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。&#10;2、申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。需携带以下材料：&#10;（1）现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；&#10;（2）由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;&#10;（3）机动车登记证书；&#10;（4）机动车行驶证；&#10;（5）机动车来历证明（发票）；&#10;（6）超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；&#10;（7）申请小、微载客汽车转让登记或转入本市的，还需提交本市小客车配置或更新指标确认通知书。&#10;若现机动车所有人是单位，身份证明是：单位的《组织机构代码证书》或包含统一社会信用代码的证件、加盖单位公章的委托书和被委托人的身份证明。"	"1:::您好，外省区市号牌小客车转入本市手续流程如下：&#10;1、若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。&#10;若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。&#10;2、申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。需携带以下材料：&#10;（1）现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；&#10;（2）由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;&#10;（3）机动车登记证书；&#10;（4）机动车行驶证；&#10;（5）机动车来历证明（发票）；&#10;（6）超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；&#10;（7）申请小、微载客汽车转让登记或转入本市的，还需提交本市小客车配置或更新指标确认通知书。&#10;若现机动车所有人是单位，身份证明是：单位的《组织机构代码证书》或包含统一社会信用代码的证件、加盖单位公章的委托书和被委托人的身份证明。"	"1:::您好，外省区市号牌小客车转入本市手续流程如下：|||外省区市号牌小客车转入本市手续流程如下
+2:::若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。|||申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续
+3:::申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。|||申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续，最后再办理转入本市手续
+4:::若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。|||转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案
+5:::申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。|||申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理
+6:::需携带以下材料：|||需携带以下材料
+7:::现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；|||现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明
+8:::由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;|||由代理人代理的，还需提交代理人身份证明，以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书
+9:::机动车登记证书；|||机动车登记证书
+10:::机动车行驶证；|||机动车行驶证
+11:::机动车来历证明（发票）；|||机动车来历证明（发票）
+12:::超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；|||超过检验有效期的机动车，"	"lc-percentile"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 provides a complete and well-structured explanation of the process, including the necessary steps and requirements. Response 2, on the other hand, is repetitive and verbose, with unnecessary repetition of the same information.
+2. Response 1 is well-formatted and clearly-structured, making it easier to follow and understand. Response 2 lacks clear formatting and structure, making it less effective in conveying the information."
+"question0;gpt-3.5-turbo-1106;lc-standard_deviation"	"Semantic chunking of the following content: 购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。"	"1:::[购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，]|||[购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，]
+2:::[北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。]|||[北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。]
+3:::[另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。]|||[另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。]"	"1:::购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。"	"gpt-3.5-turbo-1106"	"lc-standard_deviation"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it is well-formatted and clearly-structured, with each chunk of information separated and labeled. This makes it easier to understand and follow the semantic chunking of the content.
+2. Response 1 provides the same information as Response 2 but is more clearly presented, without any unnecessary repetition or verbosity."
+"question0;lc-standard_deviation;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。"	"1:::购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。"	"1:::[购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，]|||[购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，]
+2:::[北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。]|||[北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。]
+3:::[另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。]|||[另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。]"	"lc-standard_deviation"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it provides a complete and concise semantic chunking of the content without unnecessary repetition or verbosity.
+2. Response 1 is well-formatted and clearly-structured, making it easier to understand and evaluate."
+"question1;gpt-3.5-turbo-1106;lc-standard_deviation"	"Semantic chunking of the following content: 办理新车上牌手续可以由他人代办，需要提供车主本人的身份证（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书。其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明。机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书。"	"1:::[办理新车上牌手续可以由他人代办，需要提供车主本人的身份证]|||[办理新车上牌手续可以由他人代办]
+2:::[（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书]|||[需要提供车主本人的身份证；若车主身份证是外地核发的，还需提供居住证或居住登记卡，代办人的身份证以及车主出具的书面委托书]
+3:::[其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明]|||[其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明]
+4:::[机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书]|||[机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书]"	"1:::办理新车上牌手续可以由他人代办，需要提供车主本人的身份证（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书。其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明。机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书。"	"gpt-3.5-turbo-1106"	"lc-standard_deviation"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it provides a well-formatted and clearly-structured breakdown of the content into semantic chunks, making it easier to understand and follow.
+2. Response 1 includes all the required key components and does not miss any important information, while Response 2 is a verbatim repetition of the original content without any additional formatting or structuring.
+3. Response 2 is verbose and repetitive, as it simply repeats the original content without any added value in terms of formatting or structuring."
+"question1;lc-standard_deviation;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 办理新车上牌手续可以由他人代办，需要提供车主本人的身份证（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书。其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明。机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书。"	"1:::办理新车上牌手续可以由他人代办，需要提供车主本人的身份证（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书。其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明。机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书。"	"1:::[办理新车上牌手续可以由他人代办，需要提供车主本人的身份证]|||[办理新车上牌手续可以由他人代办]
+2:::[（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书]|||[需要提供车主本人的身份证；若车主身份证是外地核发的，还需提供居住证或居住登记卡，代办人的身份证以及车主出具的书面委托书]
+3:::[其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明]|||[其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明]
+4:::[机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书]|||[机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书]"	"lc-standard_deviation"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it provides the complete semantic chunking of the content, including all the required key components. Response 2, on the other hand, is unnecessarily verbose and repetitive, which goes against the scoring criteria.
+2. Response 1 is well-formatted and clearly-structured, earning it extra credit according to the scoring criteria. Response 2, while not necessarily poorly formatted, does not stand out in terms of structure."
+"question2;gpt-3.5-turbo-1106;lc-standard_deviation"	"Semantic chunking of the following content: 机动车在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"1:::[机动车]...[注销登记]|||在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。
+2:::[原机动车所有人]...[申请办理机动车转移登记时]|||但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。
+3:::[申请人符合以上条件]...[直接告知工作人员申请使用原号牌]|||若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"1:::机动车在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"gpt-3.5-turbo-1106"	"lc-standard_deviation"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it is well-formatted and clearly-structured, with each condition for applying for the original vehicle number plate being clearly separated and labeled.
+2. Response 1 provides a clear semantic chunking of the content, making it easier to understand and follow the conditions for applying for the original vehicle number plate.
+3. Response 1 is not verbose or repetitive, and it includes all the required key components of the content."
+"question2;lc-standard_deviation;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 机动车在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"1:::机动车在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"1:::[机动车]...[注销登记]|||在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。
+2:::[原机动车所有人]...[申请办理机动车转移登记时]|||但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。
+3:::[申请人符合以上条件]...[直接告知工作人员申请使用原号牌]|||若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"lc-standard_deviation"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it provides a complete and well-structured chunking of the content, including all the required key components.
+2. Response 1 is more concise and less repetitive compared to Response 2, which is a positive factor based on the scoring criteria.
+3. Both responses are well-formatted and clearly-structured, so Response 1 gets extra credit for being more concise."
+"question3;gpt-3.5-turbo-1106;lc-standard_deviation"	"Semantic chunking of the following content: 依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”。本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证。"	"1:::依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”|||摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制
+2:::本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证|||本市在城六区内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证"	"1:::依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”。本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证。"	"gpt-3.5-turbo-1106"	"lc-standard_deviation"	""	""	"semantic chunking"	"Choice: C
+Reason:
+1. Both responses provide the required semantic chunking of the content, including the specific regulations and restrictions mentioned in the original text.
+2. Both responses are well-structured and clearly formatted, with each chunk of information separated and labeled appropriately.
+3. There is no significant difference in the quality or completeness of the two responses, leading to a tie in evaluation."
+"question3;lc-standard_deviation;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”。本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证。"	"1:::依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”。本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证。"	"1:::依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”|||摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制
+2:::本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证|||本市在城六区内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证"	"lc-standard_deviation"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason: 
+1. Response 1 provides the complete semantic chunking of the content, including all the required key components, while Response 2 is missing the required key components.
+2. Response 1 is well-formatted and clearly-structured, providing the information in a concise and organized manner, while Response 2 is verbose and repetitive, which goes against the scoring criteria."
+"question4;gpt-3.5-turbo-1106;lc-standard_deviation"	"Semantic chunking of the following content: 您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。"	"1:::[您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。]|||[完成注册后可在网上根据提示进行预选号牌操作]
+2:::[如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。]|||[您可在互联网平台上进行模拟选号或者查看操作指南]
+3:::[另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。]|||[异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理]
+4:::[如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。]|||[通过现场“50选1”的方式进行选号]
+5:::[或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。]|||[提出申请使用原号牌]
+6:::[但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。]|||[若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌]"	"1:::您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。"	"gpt-3.5-turbo-1106"	"lc-standard_deviation"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it provides a well-formatted and clearly-structured breakdown of the content into distinct semantic chunks, making it easier to understand and process the information.
+2. Response 1 avoids being verbose or repetitive, sticking to the key components of the content without unnecessary repetition.
+3. Response 1 includes all the required key components of the content, ensuring that no important information is missing."
+"question4;lc-standard_deviation;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。"	"1:::您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。"	"1:::[您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。]|||[完成注册后可在网上根据提示进行预选号牌操作]
+2:::[如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。]|||[您可在互联网平台上进行模拟选号或者查看操作指南]
+3:::[另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。]|||[异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理]
+4:::[如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。]|||[通过现场“50选1”的方式进行选号]
+5:::[或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。]|||[提出申请使用原号牌]
+6:::[但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。]|||[若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌]"	"lc-standard_deviation"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 provides a complete and well-structured chunking of the content, covering all the key components without missing any information.
+2. Response 2, while also chunking the content, is repetitive and verbose in some parts, which does not adhere to the guidance of being concise and clear. Therefore, it is not as well-structured as Response 1."
+"question5;gpt-3.5-turbo-1106;lc-standard_deviation"	"Semantic chunking of the following content: 1、在国内购买的机动车，其来历证明是全国统一的机动车销售发票。在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；2、机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。"	"1:::在国内购买的机动车，其来历证明是全国统一的机动车销售发票。|||国内购买的机动车
+2:::在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；|||国外购买的机动车
+3:::机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。|||机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车"	"1:::1、在国内购买的机动车，其来历证明是全国统一的机动车销售发票。在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；2、机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。"	"gpt-3.5-turbo-1106"	"lc-standard_deviation"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it provides a clear and well-structured semantic chunking of the content, separating the different requirements for the origin proof of domestically purchased vehicles, internationally purchased vehicles, and vehicles purchased by organizations and then transferred to unregistered units. 
+2. Response 1 is more concise and to the point, avoiding unnecessary repetition or verbosity. 
+3. Both responses are well-formatted, but Response 1's clear separation of the different requirements gives it an extra credit for being clearly-structured."
+"question5;lc-standard_deviation;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 1、在国内购买的机动车，其来历证明是全国统一的机动车销售发票。在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；2、机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。"	"1:::1、在国内购买的机动车，其来历证明是全国统一的机动车销售发票。在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；2、机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。"	"1:::在国内购买的机动车，其来历证明是全国统一的机动车销售发票。|||国内购买的机动车
+2:::在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；|||国外购买的机动车
+3:::机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。|||机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车"	"lc-standard_deviation"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better formatted and clearly structured, as it presents the content in a clear and concise manner without unnecessary repetition.
+2. Response 1 includes all the required key components without missing any part of the original content, while Response 2 includes unnecessary repetition and does not add any extra value to the original content.
+3. Response 1 is more complete and well-organized compared to Response 2, which makes it a better choice based on the scoring criteria."
+"question6;gpt-3.5-turbo-1106;lc-standard_deviation"	"Semantic chunking of the following content: 1、机动车整车厂生产的汽车、摩托车、挂车，其出厂合格证明是该厂出具的机动车整车出厂合格证；&#10;2、使用国产或者进口底盘改装的机动车，其出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;3、使用国产或者进口整车改装的机动车，其出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;4、监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车，未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代。"	"1:::机动车整车厂生产的汽车...出厂合格证明是该厂出具的机动车整车出厂合格证
+2:::使用国产或者进口底盘改装的机动车...出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证
+3:::使用国产或者进口整车改装的机动车...出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证
+4:::监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车...未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代"	"1:::1、机动车整车厂生产的汽车、摩托车、挂车，其出厂合格证明是该厂出具的机动车整车出厂合格证；&#10;2、使用国产或者进口底盘改装的机动车，其出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;3、使用国产或者进口整车改装的机动车，其出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;4、监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车，未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代。"	"gpt-3.5-turbo-1106"	"lc-standard_deviation"	""	""	"semantic chunking"	"Choice: C
+Reason:
+1. Both responses provide the same content, so there is no difference in completeness or key components.
+2. Both responses are well-formatted and clearly-structured, with each point clearly delineated and easy to follow.
+3. Neither response is verbose or repetitive, so there is no negative impact based on the extent."
+"question6;lc-standard_deviation;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 1、机动车整车厂生产的汽车、摩托车、挂车，其出厂合格证明是该厂出具的机动车整车出厂合格证；&#10;2、使用国产或者进口底盘改装的机动车，其出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;3、使用国产或者进口整车改装的机动车，其出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;4、监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车，未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代。"	"1:::1、机动车整车厂生产的汽车、摩托车、挂车，其出厂合格证明是该厂出具的机动车整车出厂合格证；&#10;2、使用国产或者进口底盘改装的机动车，其出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;3、使用国产或者进口整车改装的机动车，其出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;4、监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车，未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代。"	"1:::机动车整车厂生产的汽车...出厂合格证明是该厂出具的机动车整车出厂合格证
+2:::使用国产或者进口底盘改装的机动车...出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证
+3:::使用国产或者进口整车改装的机动车...出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证
+4:::监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车...未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代"	"lc-standard_deviation"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: B
+Reason:
+1. Response 2 is better structured and formatted, breaking down the content into separate points for easier understanding.
+2. Response 2 is more concise and to the point, avoiding unnecessary repetition and verbosity.
+3. Response 2 provides a clear and complete semantic chunking of the content, meeting all the required key components."
+"question7;gpt-3.5-turbo-1106;lc-standard_deviation"	"Semantic chunking of the following content: 1、进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》；&#10;2、其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》；&#10;3、海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》；&#10;4、国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》。"	"1:::进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》|||进口汽车的进口凭证
+2:::其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》|||其他进口机动车的进口凭证
+3:::海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》|||海关监管的机动车的进口凭证
+4:::国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》|||国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证"	"1:::1、进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》；&#10;2、其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》；&#10;3、海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》；&#10;4、国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》。"	"gpt-3.5-turbo-1106"	"lc-standard_deviation"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it provides a clear and well-structured semantic chunking of the content, separating each point with a clear delimiter (|||).
+2. Response 2 is verbose and repetitive, as it includes unnecessary characters and does not provide the same level of clarity in chunking the content."
+"question7;lc-standard_deviation;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 1、进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》；&#10;2、其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》；&#10;3、海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》；&#10;4、国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》。"	"1:::1、进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》；&#10;2、其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》；&#10;3、海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》；&#10;4、国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》。"	"1:::进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》|||进口汽车的进口凭证
+2:::其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》|||其他进口机动车的进口凭证
+3:::海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》|||海关监管的机动车的进口凭证
+4:::国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》|||国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证"	"lc-standard_deviation"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: B
+Reason:
+1. Response 2 is better structured and formatted, with each chunk of information clearly labeled and separated by ""|||"", making it easier to read and understand.
+2. Response 1 is incomplete as it lacks the clear separation of chunks of information, making it difficult to distinguish between the different pieces of information."
+"question8;gpt-3.5-turbo-1106;lc-standard_deviation"	"Semantic chunking of the following content: 请先与转入地交管部门确认是否能接收该车，如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场。办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记。在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市。完成交易后，买方可向交易地车辆管理所申请办理转入手续。京牌小客车完成过户手续后，原车主可以申请更新指标。"	"1:::[请先与转入地交管部门确认是否能接收该车]|||[确认是否能接收该车]
+2:::[如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场]|||[选择在下列机动车交易市场办理交易]
+3:::[办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记]|||[办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记]
+4:::[在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市]|||[在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续]
+5:::[完成交易后，买方可向交易地车辆管理所申请办理转入手续]|||[完成交易后，买方可向交易地车辆管理所申请办理转入手续]
+6:::[京牌小客车完成过户手续后，原车主可以申请更新指标]|||[京牌小客车完成过户手续后，原车主可以申请更新指标]"	"1:::请先与转入地交管部门确认是否能接收该车，如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场。办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记。在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市。完成交易后，买方可向交易地车辆管理所申请办理转入手续。京牌小客车完成过户手续后，原车主可以申请更新指标。"	"gpt-3.5-turbo-1106"	"lc-standard_deviation"	""	""	"semantic chunking"	"Choice: C
+Reason:
+1. Both responses are equally well-formatted and clearly-structured, as they both present the semantic chunking of the content in a clear and organized manner.
+2. Both responses are equally complete, as they cover all the key components of the original content without missing any important details.
+3. Neither response is verbose or repetitive, so they are equal in this aspect as well."
+"question8;lc-standard_deviation;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 请先与转入地交管部门确认是否能接收该车，如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场。办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记。在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市。完成交易后，买方可向交易地车辆管理所申请办理转入手续。京牌小客车完成过户手续后，原车主可以申请更新指标。"	"1:::请先与转入地交管部门确认是否能接收该车，如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场。办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记。在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市。完成交易后，买方可向交易地车辆管理所申请办理转入手续。京牌小客车完成过户手续后，原车主可以申请更新指标。"	"1:::[请先与转入地交管部门确认是否能接收该车]|||[确认是否能接收该车]
+2:::[如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场]|||[选择在下列机动车交易市场办理交易]
+3:::[办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记]|||[办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记]
+4:::[在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市]|||[在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续]
+5:::[完成交易后，买方可向交易地车辆管理所申请办理转入手续]|||[完成交易后，买方可向交易地车辆管理所申请办理转入手续]
+6:::[京牌小客车完成过户手续后，原车主可以申请更新指标]|||[京牌小客车完成过户手续后，原车主可以申请更新指标]"	"lc-standard_deviation"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 provides the complete semantic chunking of the content, while Response 2 is also complete but includes unnecessary repetition and symbols.
+2. Response 1 is well-formatted and clearly-structured, making it easier to read and understand, while Response 2 is verbose and includes unnecessary symbols, which detracts from its clarity."
+"question9;gpt-3.5-turbo-1106;lc-standard_deviation"	"Semantic chunking of the following content: 您好，外省区市号牌小客车转入本市手续流程如下：&#10;1、若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。&#10;若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。&#10;2、申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。需携带以下材料：&#10;（1）现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；&#10;（2）由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;&#10;（3）机动车登记证书；&#10;（4）机动车行驶证；&#10;（5）机动车来历证明（发票）；&#10;（6）超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；&#10;（7）申请小、微载客汽车转让登记或转入本市的，还需提交本市小客车配置或更新指标确认通知书。&#10;若现机动车所有人是单位，身份证明是：单位的《组织机构代码证书》或包含统一社会信用代码的证件、加盖单位公章的委托书和被委托人的身份证明。"	"1:::您好，外省区市号牌小客车转入本市手续流程如下：|||外省区市号牌小客车转入本市手续流程如下
+2:::若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。|||申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续
+3:::申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。|||申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续，最后再办理转入本市手续
+4:::若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。|||转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案
+5:::申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。|||申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理
+6:::需携带以下材料：|||需携带以下材料
+7:::现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；|||现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明
+8:::由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;|||由代理人代理的，还需提交代理人身份证明，以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书
+9:::机动车登记证书；|||机动车登记证书
+10:::机动车行驶证；|||机动车行驶证
+11:::机动车来历证明（发票）；|||机动车来历证明（发票）
+12:::超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；|||超过检验有效期的机动车，"	"1:::您好，外省区市号牌小客车转入本市手续流程如下：&#10;1、若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。&#10;若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。&#10;2、申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。需携带以下材料：&#10;（1）现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；&#10;（2）由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;&#10;（3）机动车登记证书；&#10;（4）机动车行驶证；&#10;（5）机动车来历证明（发票）；&#10;（6）超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；&#10;（7）申请小、微载客汽车转让登记或转入本市的，还需提交本市小客车配置或更新指标确认通知书。&#10;若现机动车所有人是单位，身份证明是：单位的《组织机构代码证书》或包含统一社会信用代码的证件、加盖单位公章的委托书和被委托人的身份证明。"	"gpt-3.5-turbo-1106"	"lc-standard_deviation"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better structured and formatted, with clear separation of each step and material required for the process.
+2. Response 1 is concise and to the point, avoiding unnecessary repetition or verbosity.
+3. Response 1 includes all the key components required for a good response, while Response 2 is missing the clear separation of steps and materials."
+"question9;lc-standard_deviation;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 您好，外省区市号牌小客车转入本市手续流程如下：&#10;1、若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。&#10;若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。&#10;2、申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。需携带以下材料：&#10;（1）现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；&#10;（2）由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;&#10;（3）机动车登记证书；&#10;（4）机动车行驶证；&#10;（5）机动车来历证明（发票）；&#10;（6）超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；&#10;（7）申请小、微载客汽车转让登记或转入本市的，还需提交本市小客车配置或更新指标确认通知书。&#10;若现机动车所有人是单位，身份证明是：单位的《组织机构代码证书》或包含统一社会信用代码的证件、加盖单位公章的委托书和被委托人的身份证明。"	"1:::您好，外省区市号牌小客车转入本市手续流程如下：&#10;1、若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。&#10;若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。&#10;2、申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。需携带以下材料：&#10;（1）现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；&#10;（2）由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;&#10;（3）机动车登记证书；&#10;（4）机动车行驶证；&#10;（5）机动车来历证明（发票）；&#10;（6）超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；&#10;（7）申请小、微载客汽车转让登记或转入本市的，还需提交本市小客车配置或更新指标确认通知书。&#10;若现机动车所有人是单位，身份证明是：单位的《组织机构代码证书》或包含统一社会信用代码的证件、加盖单位公章的委托书和被委托人的身份证明。"	"1:::您好，外省区市号牌小客车转入本市手续流程如下：|||外省区市号牌小客车转入本市手续流程如下
+2:::若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。|||申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续
+3:::申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。|||申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续，最后再办理转入本市手续
+4:::若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。|||转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案
+5:::申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。|||申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理
+6:::需携带以下材料：|||需携带以下材料
+7:::现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；|||现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明
+8:::由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;|||由代理人代理的，还需提交代理人身份证明，以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书
+9:::机动车登记证书；|||机动车登记证书
+10:::机动车行驶证；|||机动车行驶证
+11:::机动车来历证明（发票）；|||机动车来历证明（发票）
+12:::超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；|||超过检验有效期的机动车，"	"lc-standard_deviation"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 provides a complete and well-structured explanation of the process, including the necessary steps and requirements, while Response 2 is repetitive and verbose, breaking down the content into unnecessary smaller chunks.
+2. Response 1 is well-formatted and clearly-structured, making it easier to follow, while Response 2 lacks clear formatting and structure, making it harder to comprehend."
+"question0;gpt-3.5-turbo-1106;lc-interquartile"	"Semantic chunking of the following content: 购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。"	"1:::[购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，]|||[购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，]
+2:::[北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。]|||[北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。]
+3:::[另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。]|||[另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。]"	"1:::购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。"	"gpt-3.5-turbo-1106"	"lc-interquartile"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it is well-formatted and clearly-structured, with each chunk of information separated and labeled. This makes it easier to understand and follow the semantic chunking of the content.
+2. Response 1 provides the same information as Response 2 but in a more organized and structured manner, without being verbose or repetitive."
+"question0;lc-interquartile;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。"	"1:::购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。"	"1:::[购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，]|||[购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，]
+2:::[北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。]|||[北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。]
+3:::[另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。]|||[另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。]"	"lc-interquartile"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it provides a complete and well-structured chunking of the content without unnecessary repetition. It covers all the key components of the original content in a clear and concise manner.
+2. Response 2, on the other hand, unnecessarily repeats the same content multiple times, making it verbose and less clear in its structure. This affects the overall quality of the response."
+"question1;gpt-3.5-turbo-1106;lc-interquartile"	"Semantic chunking of the following content: 办理新车上牌手续可以由他人代办，需要提供车主本人的身份证（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书。其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明。机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书。"	"1:::[办理新车上牌手续可以由他人代办，需要提供车主本人的身份证]|||[办理新车上牌手续可以由他人代办]
+2:::[（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书]|||[需要提供车主本人的身份证；若车主身份证是外地核发的，还需提供居住证或居住登记卡，代办人的身份证以及车主出具的书面委托书]
+3:::[其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明]|||[其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明]
+4:::[机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书]|||[机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书]"	"1:::办理新车上牌手续可以由他人代办，需要提供车主本人的身份证（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书。其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明。机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书。"	"gpt-3.5-turbo-1106"	"lc-interquartile"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it provides a well-formatted and clearly-structured breakdown of the content into semantic chunks, making it easier to understand and follow.
+2. Response 1 avoids being verbose or repetitive, while Response 2 presents the content in a single block of text, which could be overwhelming for the reader.
+3. Response 1 includes the required key components, while Response 2 misses the required formatting and structure, making it a bad response."
+"question1;lc-interquartile;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 办理新车上牌手续可以由他人代办，需要提供车主本人的身份证（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书。其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明。机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书。"	"1:::办理新车上牌手续可以由他人代办，需要提供车主本人的身份证（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书。其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明。机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书。"	"1:::[办理新车上牌手续可以由他人代办，需要提供车主本人的身份证]|||[办理新车上牌手续可以由他人代办]
+2:::[（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书]|||[需要提供车主本人的身份证；若车主身份证是外地核发的，还需提供居住证或居住登记卡，代办人的身份证以及车主出具的书面委托书]
+3:::[其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明]|||[其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明]
+4:::[机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书]|||[机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书]"	"lc-interquartile"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it provides the complete semantic chunking of the content in a well-formatted and clearly-structured manner, without being verbose or repetitive.
+2. Response 2, on the other hand, is unnecessarily verbose and repetitive, breaking down the content into smaller chunks without adding any additional value. Therefore, it does not meet the criteria for a good response."
+"question2;gpt-3.5-turbo-1106;lc-interquartile"	"Semantic chunking of the following content: 机动车在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"1:::[机动车]...[注销登记]|||在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。
+2:::[原机动车所有人]...[申请办理机动车转移登记时]|||但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。
+3:::[申请人符合以上条件]...[直接告知工作人员申请使用原号牌]|||若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"1:::机动车在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"gpt-3.5-turbo-1106"	"lc-interquartile"	""	""	"semantic chunking"	"Choice: A
+Reason: 
+1. Response 1 is better because it is well-formatted and clearly-structured, with each condition and requirement presented in a separate chunk, making it easier to understand.
+2. Response 1 provides a clear semantic chunking of the content, breaking it down into smaller, more manageable parts, which aids in comprehension.
+3. Response 2 is a verbatim repetition of the original content without any additional formatting or structuring, making it less effective in conveying the information."
+"question2;lc-interquartile;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 机动车在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"1:::机动车在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"1:::[机动车]...[注销登记]|||在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。
+2:::[原机动车所有人]...[申请办理机动车转移登记时]|||但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。
+3:::[申请人符合以上条件]...[直接告知工作人员申请使用原号牌]|||若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"lc-interquartile"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it provides a complete and well-structured chunking of the content, including all the required key components without being verbose or repetitive.
+2. Response 1 is well-formatted and clearly-structured, giving it extra credit according to the scoring criteria."
+"question3;gpt-3.5-turbo-1106;lc-interquartile"	"Semantic chunking of the following content: 依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”。本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证。"	"1:::依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”|||摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制
+2:::本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证|||本市在城六区内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证"	"1:::依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”。本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证。"	"gpt-3.5-turbo-1106"	"lc-interquartile"	""	""	"semantic chunking"	"Choice: C
+Reason:
+1. Both responses provide the required semantic chunking of the content, including the relevant regulations and the specific restrictions on motorcycle registration in Beijing.
+2. Both responses are well-formatted and clearly-structured, with each chunk of information separated and labeled appropriately.
+3. There is no significant difference in the content or structure of the two responses, so it is a tie."
+"question3;lc-interquartile;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”。本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证。"	"1:::依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”。本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证。"	"1:::依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”|||摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制
+2:::本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证|||本市在城六区内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证"	"lc-interquartile"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 provides the complete semantic chunking of the given content, including all the required key components, while Response 2 repeats the same information in a verbose manner.
+2. Response 1 is well-formatted and clearly-structured, presenting the information in a concise and organized manner, while Response 2 is repetitive and lacks clear structure."
+"question4;gpt-3.5-turbo-1106;lc-interquartile"	"Semantic chunking of the following content: 您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。"	"1:::[您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。]|||[完成注册后可在网上根据提示进行预选号牌操作]
+2:::[如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。]|||[您可在互联网平台上进行模拟选号或者查看操作指南]
+3:::[另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。]|||[异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理]
+4:::[如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。]|||[通过现场“50选1”的方式进行选号]
+5:::[或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。]|||[提出申请使用原号牌]
+6:::[但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。]|||[若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌]"	"1:::您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。"	"gpt-3.5-turbo-1106"	"lc-interquartile"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better formatted and clearly structured, with each chunk of content separated and labeled.
+2. Response 1 provides a more concise and focused breakdown of the content, avoiding unnecessary repetition or verbosity.
+3. Response 1 includes all the key components of the original content, ensuring that no important information is missed.
+4. Response 1 demonstrates a clear understanding of the content and effectively chunks the information into distinct sections."
+"question4;lc-interquartile;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。"	"1:::您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。"	"1:::[您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。]|||[完成注册后可在网上根据提示进行预选号牌操作]
+2:::[如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。]|||[您可在互联网平台上进行模拟选号或者查看操作指南]
+3:::[另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。]|||[异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理]
+4:::[如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。]|||[通过现场“50选1”的方式进行选号]
+5:::[或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。]|||[提出申请使用原号牌]
+6:::[但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。]|||[若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌]"	"lc-interquartile"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 provides a complete and well-structured chunking of the content, covering all the key components without being verbose or repetitive.
+2. Response 2, while also providing a chunking of the content, is less clear and well-structured. It breaks down the content into smaller parts, but it lacks the clarity and completeness of Response 1."
+"question5;gpt-3.5-turbo-1106;lc-interquartile"	"Semantic chunking of the following content: 1、在国内购买的机动车，其来历证明是全国统一的机动车销售发票。在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；2、机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。"	"1:::在国内购买的机动车，其来历证明是全国统一的机动车销售发票。|||国内购买的机动车
+2:::在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；|||国外购买的机动车
+3:::机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。|||机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车"	"1:::1、在国内购买的机动车，其来历证明是全国统一的机动车销售发票。在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；2、机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。"	"gpt-3.5-turbo-1106"	"lc-interquartile"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it provides a clear and well-structured semantic chunking of the content, separating the different requirements for the origin proof of domestically purchased vehicles, internationally purchased vehicles, and vehicles purchased by organizations and then transferred to unregistered units. 
+2. Response 1 is more concise and to the point, avoiding unnecessary repetition or verbosity. 
+3. Both responses are well-formatted, but Response 1's clear separation of the different requirements gives it an extra credit for being clearly-structured."
+"question5;lc-interquartile;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 1、在国内购买的机动车，其来历证明是全国统一的机动车销售发票。在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；2、机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。"	"1:::1、在国内购买的机动车，其来历证明是全国统一的机动车销售发票。在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；2、机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。"	"1:::在国内购买的机动车，其来历证明是全国统一的机动车销售发票。|||国内购买的机动车
+2:::在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；|||国外购买的机动车
+3:::机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。|||机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车"	"lc-interquartile"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason: 
+1. Response 1 is better formatted and clearly structured, providing the information in a concise and organized manner.
+2. Response 1 is not verbose or repetitive, while Response 2 includes unnecessary repetition and excessive use of punctuation marks.
+3. Response 1 includes all the required key components without missing any, while Response 2 lacks the same level of completeness."
+"question6;gpt-3.5-turbo-1106;lc-interquartile"	"Semantic chunking of the following content: 1、机动车整车厂生产的汽车、摩托车、挂车，其出厂合格证明是该厂出具的机动车整车出厂合格证；&#10;2、使用国产或者进口底盘改装的机动车，其出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;3、使用国产或者进口整车改装的机动车，其出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;4、监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车，未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代。"	"1:::机动车整车厂生产的汽车...出厂合格证明是该厂出具的机动车整车出厂合格证
+2:::使用国产或者进口底盘改装的机动车...出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证
+3:::使用国产或者进口整车改装的机动车...出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证
+4:::监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车...未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代"	"1:::1、机动车整车厂生产的汽车、摩托车、挂车，其出厂合格证明是该厂出具的机动车整车出厂合格证；&#10;2、使用国产或者进口底盘改装的机动车，其出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;3、使用国产或者进口整车改装的机动车，其出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;4、监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车，未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代。"	"gpt-3.5-turbo-1106"	"lc-interquartile"	""	""	"semantic chunking"	"Choice: C
+Reason:
+1. Both responses provide the semantic chunking of the content in a clear and well-structured manner, meeting the requirement for a well-formatted and clearly-structured response.
+2. Neither response is verbose or repetitive, so there is no negative impact based on the extent of the response.
+3. Both responses are complete and include all the required key components, so there is no bad response in terms of incompleteness."
+"question6;lc-interquartile;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 1、机动车整车厂生产的汽车、摩托车、挂车，其出厂合格证明是该厂出具的机动车整车出厂合格证；&#10;2、使用国产或者进口底盘改装的机动车，其出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;3、使用国产或者进口整车改装的机动车，其出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;4、监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车，未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代。"	"1:::1、机动车整车厂生产的汽车、摩托车、挂车，其出厂合格证明是该厂出具的机动车整车出厂合格证；&#10;2、使用国产或者进口底盘改装的机动车，其出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;3、使用国产或者进口整车改装的机动车，其出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;4、监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车，未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代。"	"1:::机动车整车厂生产的汽车...出厂合格证明是该厂出具的机动车整车出厂合格证
+2:::使用国产或者进口底盘改装的机动车...出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证
+3:::使用国产或者进口整车改装的机动车...出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证
+4:::监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车...未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代"	"lc-interquartile"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: B
+Reason:
+1. Response 2 is better structured and formatted, breaking down the content into separate chunks for easier understanding.
+2. Response 2 is more concise and to the point, avoiding unnecessary repetition or verbosity.
+3. Response 2 provides a clear and well-organized presentation of the content, making it easier to comprehend."
+"question7;gpt-3.5-turbo-1106;lc-interquartile"	"Semantic chunking of the following content: 1、进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》；&#10;2、其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》；&#10;3、海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》；&#10;4、国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》。"	"1:::进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》|||进口汽车的进口凭证
+2:::其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》|||其他进口机动车的进口凭证
+3:::海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》|||海关监管的机动车的进口凭证
+4:::国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》|||国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证"	"1:::1、进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》；&#10;2、其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》；&#10;3、海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》；&#10;4、国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》。"	"gpt-3.5-turbo-1106"	"lc-interquartile"	""	""	"semantic chunking"	"Choice: A
+Reason: 
+1. Response 1 is better because it provides a clear and well-structured semantic chunking of the content, breaking it down into distinct points with clear labels.
+2. Response 1 is more concise and does not contain unnecessary repetition, while Response 2 includes unnecessary repetition of the entire content.
+3. Response 1 is well-formatted and clearly-structured, providing a clear separation of each chunk of information, while Response 2 presents the information in a single block of text without clear separation."
+"question7;lc-interquartile;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 1、进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》；&#10;2、其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》；&#10;3、海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》；&#10;4、国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》。"	"1:::1、进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》；&#10;2、其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》；&#10;3、海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》；&#10;4、国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》。"	"1:::进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》|||进口汽车的进口凭证
+2:::其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》|||其他进口机动车的进口凭证
+3:::海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》|||海关监管的机动车的进口凭证
+4:::国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》|||国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证"	"lc-interquartile"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it provides a complete and well-structured semantic chunking of the content without any missing components.
+2. Response 1 is well-formatted and clearly-structured, giving it extra credit according to the scoring criteria. 
+3. Response 2 is verbose and repetitive, which is considered negatively based on the extent."
+"question8;gpt-3.5-turbo-1106;lc-interquartile"	"Semantic chunking of the following content: 请先与转入地交管部门确认是否能接收该车，如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场。办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记。在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市。完成交易后，买方可向交易地车辆管理所申请办理转入手续。京牌小客车完成过户手续后，原车主可以申请更新指标。"	"1:::[请先与转入地交管部门确认是否能接收该车]|||[确认是否能接收该车]
+2:::[如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场]|||[选择在下列机动车交易市场办理交易]
+3:::[办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记]|||[办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记]
+4:::[在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市]|||[在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续]
+5:::[完成交易后，买方可向交易地车辆管理所申请办理转入手续]|||[完成交易后，买方可向交易地车辆管理所申请办理转入手续]
+6:::[京牌小客车完成过户手续后，原车主可以申请更新指标]|||[京牌小客车完成过户手续后，原车主可以申请更新指标]"	"1:::请先与转入地交管部门确认是否能接收该车，如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场。办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记。在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市。完成交易后，买方可向交易地车辆管理所申请办理转入手续。京牌小客车完成过户手续后，原车主可以申请更新指标。"	"gpt-3.5-turbo-1106"	"lc-interquartile"	""	""	"semantic chunking"	"Choice: C
+Reason:
+1. Both responses are equally well-formatted and clearly-structured, so they both receive extra credit for this.
+2. Response 1 provides a semantic chunking of the content, breaking it down into smaller, more manageable parts, which is helpful for understanding the information. However, it is repetitive in some parts, which can be considered negatively. 
+3. Response 2 presents the content in a clear and concise manner without being overly repetitive, which is a positive point. However, it lacks the semantic chunking that Response 1 provides, which could be seen as a negative point. 
+4. Overall, both responses have their strengths and weaknesses, leading to a tie in this evaluation."
+"question8;lc-interquartile;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 请先与转入地交管部门确认是否能接收该车，如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场。办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记。在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市。完成交易后，买方可向交易地车辆管理所申请办理转入手续。京牌小客车完成过户手续后，原车主可以申请更新指标。"	"1:::请先与转入地交管部门确认是否能接收该车，如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场。办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记。在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市。完成交易后，买方可向交易地车辆管理所申请办理转入手续。京牌小客车完成过户手续后，原车主可以申请更新指标。"	"1:::[请先与转入地交管部门确认是否能接收该车]|||[确认是否能接收该车]
+2:::[如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场]|||[选择在下列机动车交易市场办理交易]
+3:::[办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记]|||[办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记]
+4:::[在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市]|||[在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续]
+5:::[完成交易后，买方可向交易地车辆管理所申请办理转入手续]|||[完成交易后，买方可向交易地车辆管理所申请办理转入手续]
+6:::[京牌小客车完成过户手续后，原车主可以申请更新指标]|||[京牌小客车完成过户手续后，原车主可以申请更新指标]"	"lc-interquartile"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 provides the complete semantic chunking of the content, while Response 2 is also complete but includes unnecessary repetition and symbols.
+2. Response 1 is well-formatted and clearly-structured, making it easier to read and understand, while Response 2 is verbose and includes unnecessary symbols, which detracts from its clarity and structure."
+"question9;gpt-3.5-turbo-1106;lc-interquartile"	"Semantic chunking of the following content: 您好，外省区市号牌小客车转入本市手续流程如下：&#10;1、若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。&#10;若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。&#10;2、申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。需携带以下材料：&#10;（1）现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；&#10;（2）由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;&#10;（3）机动车登记证书；&#10;（4）机动车行驶证；&#10;（5）机动车来历证明（发票）；&#10;（6）超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；&#10;（7）申请小、微载客汽车转让登记或转入本市的，还需提交本市小客车配置或更新指标确认通知书。&#10;若现机动车所有人是单位，身份证明是：单位的《组织机构代码证书》或包含统一社会信用代码的证件、加盖单位公章的委托书和被委托人的身份证明。"	"1:::您好，外省区市号牌小客车转入本市手续流程如下：|||外省区市号牌小客车转入本市手续流程如下
+2:::若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。|||申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续
+3:::申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。|||申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续，最后再办理转入本市手续
+4:::若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。|||转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案
+5:::申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。|||申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理
+6:::需携带以下材料：|||需携带以下材料
+7:::现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；|||现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明
+8:::由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;|||由代理人代理的，还需提交代理人身份证明，以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书
+9:::机动车登记证书；|||机动车登记证书
+10:::机动车行驶证；|||机动车行驶证
+11:::机动车来历证明（发票）；|||机动车来历证明（发票）
+12:::超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；|||超过检验有效期的机动车，"	"1:::您好，外省区市号牌小客车转入本市手续流程如下：&#10;1、若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。&#10;若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。&#10;2、申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。需携带以下材料：&#10;（1）现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；&#10;（2）由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;&#10;（3）机动车登记证书；&#10;（4）机动车行驶证；&#10;（5）机动车来历证明（发票）；&#10;（6）超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；&#10;（7）申请小、微载客汽车转让登记或转入本市的，还需提交本市小客车配置或更新指标确认通知书。&#10;若现机动车所有人是单位，身份证明是：单位的《组织机构代码证书》或包含统一社会信用代码的证件、加盖单位公章的委托书和被委托人的身份证明。"	"gpt-3.5-turbo-1106"	"lc-interquartile"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better structured and formatted, with clear separation of each step and material required for the process.
+2. Response 1 is more concise and to the point, avoiding unnecessary repetition or verbosity.
+3. Response 1 includes all the key components required for a good response, while Response 2 is missing the clear separation of steps and materials."
+"question9;lc-interquartile;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 您好，外省区市号牌小客车转入本市手续流程如下：&#10;1、若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。&#10;若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。&#10;2、申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。需携带以下材料：&#10;（1）现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；&#10;（2）由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;&#10;（3）机动车登记证书；&#10;（4）机动车行驶证；&#10;（5）机动车来历证明（发票）；&#10;（6）超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；&#10;（7）申请小、微载客汽车转让登记或转入本市的，还需提交本市小客车配置或更新指标确认通知书。&#10;若现机动车所有人是单位，身份证明是：单位的《组织机构代码证书》或包含统一社会信用代码的证件、加盖单位公章的委托书和被委托人的身份证明。"	"1:::您好，外省区市号牌小客车转入本市手续流程如下：&#10;1、若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。&#10;若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。&#10;2、申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。需携带以下材料：&#10;（1）现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；&#10;（2）由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;&#10;（3）机动车登记证书；&#10;（4）机动车行驶证；&#10;（5）机动车来历证明（发票）；&#10;（6）超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；&#10;（7）申请小、微载客汽车转让登记或转入本市的，还需提交本市小客车配置或更新指标确认通知书。&#10;若现机动车所有人是单位，身份证明是：单位的《组织机构代码证书》或包含统一社会信用代码的证件、加盖单位公章的委托书和被委托人的身份证明。"	"1:::您好，外省区市号牌小客车转入本市手续流程如下：|||外省区市号牌小客车转入本市手续流程如下
+2:::若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。|||申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续
+3:::申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。|||申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续，最后再办理转入本市手续
+4:::若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。|||转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案
+5:::申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。|||申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理
+6:::需携带以下材料：|||需携带以下材料
+7:::现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；|||现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明
+8:::由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;|||由代理人代理的，还需提交代理人身份证明，以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书
+9:::机动车登记证书；|||机动车登记证书
+10:::机动车行驶证；|||机动车行驶证
+11:::机动车来历证明（发票）；|||机动车来历证明（发票）
+12:::超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；|||超过检验有效期的机动车，"	"lc-interquartile"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better structured and well-formatted, providing a clear and concise explanation of the process without unnecessary repetition.
+2. Response 1 includes all the required key components in a single, coherent paragraph, while Response 2 is fragmented and lacks a cohesive structure.
+3. Response 1 is complete and does not miss any required key component, while Response 2 is incomplete and lacks some essential details."
+"question0;gpt-3.5-turbo-1106;gpt-4-0613"	"Semantic chunking of the following content: 购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。"	"1:::[购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，]|||[购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，]
+2:::[北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。]|||[北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。]
+3:::[另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。]|||[另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。]"	"1:::购买新车后没有明确要求多长时间内必须办理上牌手续|||购买新车后的上牌手续时间没有明确规定
+2:::但是受一些其它情况的限制，比如环保的要求...车辆可能就达不到新的标准，就不能上牌。|||环保要求的变化可能影响新车的上牌
+3:::另外，国产机动车要通过国家批准通告才能生产销售...这种情况也会影响新车的上牌。|||国家批准通告的变化可能影响新车的上牌"	"gpt-3.5-turbo-1106"	"gpt-4-0613"	""	""	"semantic chunking"	"Choice: B
+Reason:
+1. Response 2 is better because it provides a more concise and clear semantic chunking of the content, making it easier to understand.
+2. Response 2 is well-structured and formatted, with each chunk clearly separated and labeled, giving it extra credit for being well-organized.
+3. Response 1 is repetitive and verbose, which goes against the scoring criteria."
+"question0;gpt-4-0613;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。"	"1:::购买新车后没有明确要求多长时间内必须办理上牌手续|||购买新车后的上牌手续时间没有明确规定
+2:::但是受一些其它情况的限制，比如环保的要求...车辆可能就达不到新的标准，就不能上牌。|||环保要求的变化可能影响新车的上牌
+3:::另外，国产机动车要通过国家批准通告才能生产销售...这种情况也会影响新车的上牌。|||国家批准通告的变化可能影响新车的上牌"	"1:::[购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，]|||[购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，]
+2:::[北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。]|||[北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。]
+3:::[另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。]|||[另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。]"	"gpt-4-0613"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it provides a concise and clear semantic chunking of the content, breaking it down into key points without unnecessary repetition.
+2. Response 1 is well-formatted and clearly-structured, making it easier to understand and follow the points being made.
+3. Response 2, while not necessarily bad, is more verbose and repetitive, which goes against the scoring criteria. Therefore, Response 1 is the better choice."
+"question1;gpt-3.5-turbo-1106;gpt-4-0613"	"Semantic chunking of the following content: 办理新车上牌手续可以由他人代办，需要提供车主本人的身份证（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书。其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明。机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书。"	"1:::[办理新车上牌手续可以由他人代办，需要提供车主本人的身份证]|||[办理新车上牌手续可以由他人代办]
+2:::[（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书]|||[需要提供车主本人的身份证；若车主身份证是外地核发的，还需提供居住证或居住登记卡，代办人的身份证以及车主出具的书面委托书]
+3:::[其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明]|||[其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明]
+4:::[机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书]|||[机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书]"	"1:::办理新车上牌手续可以由他人代办...书面委托书。|||描述了新车上牌手续的代办流程和所需材料
+2:::其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明。|||特别指出了小型、微型非营运载客汽车注册登记的特殊规定
+3:::机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的...无需提交纸质委托书。|||介绍了通过手机APP申请网上委托的特殊情况和规定"	"gpt-3.5-turbo-1106"	"gpt-4-0613"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 provides a clear and well-structured breakdown of the content into chunks, making it easier to understand the different requirements. Response 2, on the other hand, does not chunk the content as clearly.
+2. Response 1 includes all the required key components, while Response 2 misses some of the key components, such as the requirement for the car owner's ID and the need for a written power of attorney.
+3. Response 1 is not verbose or repetitive, while Response 2 is somewhat repetitive in its descriptions.
+4. Response 1 is well-formatted with clear delineation of the chunks, giving it extra credit."
+"question1;gpt-4-0613;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 办理新车上牌手续可以由他人代办，需要提供车主本人的身份证（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书。其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明。机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书。"	"1:::办理新车上牌手续可以由他人代办...书面委托书。|||描述了新车上牌手续的代办流程和所需材料
+2:::其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明。|||特别指出了小型、微型非营运载客汽车注册登记的特殊规定
+3:::机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的...无需提交纸质委托书。|||介绍了通过手机APP申请网上委托的特殊情况和规定"	"1:::[办理新车上牌手续可以由他人代办，需要提供车主本人的身份证]|||[办理新车上牌手续可以由他人代办]
+2:::[（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书]|||[需要提供车主本人的身份证；若车主身份证是外地核发的，还需提供居住证或居住登记卡，代办人的身份证以及车主出具的书面委托书]
+3:::[其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明]|||[其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明]
+4:::[机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书]|||[机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书]"	"gpt-4-0613"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it provides a concise and well-structured summary of the content, highlighting the key components of the process and the specific requirements. It is clear and to the point, without unnecessary repetition.
+2. Response 2, on the other hand, is more verbose and repetitive, restating the same information multiple times without adding any new insights. This makes it less effective in conveying the necessary information."
+"question2;gpt-3.5-turbo-1106;gpt-4-0613"	"Semantic chunking of the following content: 机动车在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"1:::[机动车]...[注销登记]|||在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。
+2:::[原机动车所有人]...[申请办理机动车转移登记时]|||但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。
+3:::[申请人符合以上条件]...[直接告知工作人员申请使用原号牌]|||若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"1:::机动车在办理转移登记或者注销登记后...申请使用原机动车号牌号码。|||描述了在办理机动车转移登记后，原机动车所有人可以申请使用原机动车号牌号码的情况。
+2:::但应当符合下列条件：（1）在办理机动车迁出...交通事故处理完毕。|||列出了申请使用原机动车号牌号码需要满足的条件，包括在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请，机动车所有人拥有原机动车且使用原号牌号码一年以上，以及涉及原机动车的道路交通安全违法行为和交通事故处理完毕。
+3:::若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。|||说明了如果申请人满足上述条件，可以在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌的操作步骤。"	"gpt-3.5-turbo-1106"	"gpt-4-0613"	""	""	"semantic chunking"	"Choice: B
+Reason:
+1. Response 2 provides a clear and concise summary of the content, making it well-structured and easy to follow.
+2. Response 2 does not contain any unnecessary repetition or verbosity, making it more concise than Response 1.
+3. Response 2 includes all the required key components and does not miss any important details, making it a better response overall."
+"question2;gpt-4-0613;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 机动车在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"1:::机动车在办理转移登记或者注销登记后...申请使用原机动车号牌号码。|||描述了在办理机动车转移登记后，原机动车所有人可以申请使用原机动车号牌号码的情况。
+2:::但应当符合下列条件：（1）在办理机动车迁出...交通事故处理完毕。|||列出了申请使用原机动车号牌号码需要满足的条件，包括在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请，机动车所有人拥有原机动车且使用原号牌号码一年以上，以及涉及原机动车的道路交通安全违法行为和交通事故处理完毕。
+3:::若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。|||说明了如果申请人满足上述条件，可以在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌的操作步骤。"	"1:::[机动车]...[注销登记]|||在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。
+2:::[原机动车所有人]...[申请办理机动车转移登记时]|||但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。
+3:::[申请人符合以上条件]...[直接告知工作人员申请使用原号牌]|||若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"gpt-4-0613"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 provides a clear and well-structured breakdown of the content, with each point clearly labeled and explained. Response 2, on the other hand, lacks the same level of clarity and structure.
+2. Response 1 is not verbose or repetitive, and it covers all the key components of the content without unnecessary repetition. Response 2, while not overly verbose, lacks the same level of clarity and conciseness as Response 1.
+3. Both responses are well-formatted and clearly-structured, but Response 1 provides a slightly more organized breakdown of the content, giving it extra credit in this aspect."
+"question3;gpt-3.5-turbo-1106;gpt-4-0613"	"Semantic chunking of the following content: 依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”。本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证。"	"1:::依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”|||摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制
+2:::本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证|||本市在城六区内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证"	"1:::依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”|||[法规引述，摩托车和道路专项作业车辆的登记应符合北京市的交通发展规划，并在限定区域内实行总量控制]
+2:::本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证。|||[北京市在城六区内停止新增摩托车注册登记，仅对住址在远郊区县的人核发京B号牌摩托车牌证]"	"gpt-3.5-turbo-1106"	"gpt-4-0613"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better because it provides a clear and concise semantic chunking of the content, with each chunk separated by ""|||"". 
+2. Response 1 is well-structured and follows the format of the original content, without unnecessary repetition or verbosity."
+"question3;gpt-4-0613;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”。本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证。"	"1:::依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”|||[法规引述，摩托车和道路专项作业车辆的登记应符合北京市的交通发展规划，并在限定区域内实行总量控制]
+2:::本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证。|||[北京市在城六区内停止新增摩托车注册登记，仅对住址在远郊区县的人核发京B号牌摩托车牌证]"	"1:::依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”|||摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制
+2:::本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证|||本市在城六区内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证"	"gpt-4-0613"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: C
+Reason:
+1. Both responses provide the required semantic chunking of the content, breaking it down into two key points.
+2. Response 1 is well-formatted and clearly-structured, providing each chunk in a separate line with a clear reference to the source material.
+3. Response 2 is also well-structured but lacks the extra credit for formatting and clear structure that Response 1 provides.
+4. Both responses are complete and do not miss any required key component.
+5. Neither response is verbose or repetitive, so there is no negative impact based on the extent of the response."
+"question4;gpt-3.5-turbo-1106;gpt-4-0613"	"Semantic chunking of the following content: 您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。"	"1:::[您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。]|||[完成注册后可在网上根据提示进行预选号牌操作]
+2:::[如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。]|||[您可在互联网平台上进行模拟选号或者查看操作指南]
+3:::[另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。]|||[异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理]
+4:::[如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。]|||[通过现场“50选1”的方式进行选号]
+5:::[或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。]|||[提出申请使用原号牌]
+6:::[但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。]|||[若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌]"	"1:::您可下载“交管12123”APP或者登录...进行预选号牌操作。|||[用户下载APP或登录网站进行车牌预选操作的指南]
+2:::如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南...查看相关流程图解。|||[用户在有疑问时可以查看操作指南或模拟选号的建议]
+3:::另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。|||[各种车辆类型的在线选号办理说明]
+4:::如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。|||[对于不满意网上选号的用户，可以选择现场选号的建议]
+5:::或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。|||[用户可以申请继续使用原号牌的条件和流程]
+6:::但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。|||[对于未在有效期内确认预选号牌的用户，将被加入黑名单的警告]"	"gpt-3.5-turbo-1106"	"gpt-4-0613"	""	""	"semantic chunking"	"Choice: B
+Reason:
+1. Response 2 provides a clear and concise semantic chunking of the content, making it easier to understand and follow.
+2. Response 2 avoids unnecessary repetition and is well-structured, which adds to its clarity and readability."
+"question4;gpt-4-0613;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。"	"1:::您可下载“交管12123”APP或者登录...进行预选号牌操作。|||[用户下载APP或登录网站进行车牌预选操作的指南]
+2:::如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南...查看相关流程图解。|||[用户在有疑问时可以查看操作指南或模拟选号的建议]
+3:::另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。|||[各种车辆类型的在线选号办理说明]
+4:::如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。|||[对于不满意网上选号的用户，可以选择现场选号的建议]
+5:::或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。|||[用户可以申请继续使用原号牌的条件和流程]
+6:::但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。|||[对于未在有效期内确认预选号牌的用户，将被加入黑名单的警告]"	"1:::[您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。]|||[完成注册后可在网上根据提示进行预选号牌操作]
+2:::[如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。]|||[您可在互联网平台上进行模拟选号或者查看操作指南]
+3:::[另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。]|||[异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理]
+4:::[如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。]|||[通过现场“50选1”的方式进行选号]
+5:::[或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。]|||[提出申请使用原号牌]
+6:::[但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。]|||[若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌]"	"gpt-4-0613"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 provides a clear and well-structured breakdown of the content, making it easier to understand the different aspects of the information provided.
+2. Response 1 is not verbose or repetitive, and it covers all the key components of the original content without missing any important details.
+3. The formatting and structure of Response 1 are well-organized, providing extra credit according to the scoring criteria."
+"question5;gpt-3.5-turbo-1106;gpt-4-0613"	"Semantic chunking of the following content: 1、在国内购买的机动车，其来历证明是全国统一的机动车销售发票。在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；2、机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。"	"1:::在国内购买的机动车，其来历证明是全国统一的机动车销售发票。|||国内购买的机动车
+2:::在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；|||国外购买的机动车
+3:::机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。|||机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车"	"1:::在国内购买的机动车...机动车不需提供来历证明|||描述了在国内和国外购买机动车的来历证明的不同
+2:::机关、企业、事业单位和社会团体统一采购...出具的调拨证明|||描述了机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车的来历证明"	"gpt-3.5-turbo-1106"	"gpt-4-0613"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 provides a clear and well-structured semantic chunking of the content, breaking it down into three distinct parts, each with a specific explanation. This demonstrates a good level of organization and clarity.
+2. Response 2, while also providing a breakdown of the content, is less clear and lacks the same level of structure as Response 1. It also contains some repetition, which goes against the scoring criteria."
+"question5;gpt-4-0613;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 1、在国内购买的机动车，其来历证明是全国统一的机动车销售发票。在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；2、机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。"	"1:::在国内购买的机动车...机动车不需提供来历证明|||描述了在国内和国外购买机动车的来历证明的不同
+2:::机关、企业、事业单位和社会团体统一采购...出具的调拨证明|||描述了机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车的来历证明"	"1:::在国内购买的机动车，其来历证明是全国统一的机动车销售发票。|||国内购买的机动车
+2:::在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；|||国外购买的机动车
+3:::机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。|||机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车"	"gpt-4-0613"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: B
+Reason:
+1. Response 2 provides a clear and well-structured breakdown of the semantic chunking, with each point clearly labeled and explained.
+2. Response 2 is not verbose or repetitive, and it covers all the required key components without missing any.
+3. Response 2 is well-formatted and clearly-structured, earning extra credit according to the scoring criteria."
+"question6;gpt-3.5-turbo-1106;gpt-4-0613"	"Semantic chunking of the following content: 1、机动车整车厂生产的汽车、摩托车、挂车，其出厂合格证明是该厂出具的机动车整车出厂合格证；&#10;2、使用国产或者进口底盘改装的机动车，其出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;3、使用国产或者进口整车改装的机动车，其出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;4、监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车，未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代。"	"1:::机动车整车厂生产的汽车...出厂合格证明是该厂出具的机动车整车出厂合格证
+2:::使用国产或者进口底盘改装的机动车...出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证
+3:::使用国产或者进口整车改装的机动车...出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证
+4:::监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车...未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代"	"1:::机动车整车厂生产的汽车...机动车整车出厂合格证|||描述了机动车整车厂生产的汽车、摩托车、挂车的出厂合格证明是由该厂出具的机动车整车出厂合格证。
+2:::使用国产或者进口底盘改装的机动车...机动车整车出厂合格证|||描述了使用国产或进口底盘改装的机动车的出厂合格证明是由机动车底盘生产厂或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证。
+3:::使用国产或者进口整车改装的机动车...机动车整车出厂合格证|||描述了使用国产或进口整车改装的机动车的出厂合格证明是由机动车生产厂或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证。
+4:::监察机关、人民法院、人民检察院或者行政执法机关依法扣留...证明替代|||描述了未注册登记的国产机动车如果未能提供出厂合格证明，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代。"	"gpt-3.5-turbo-1106"	"gpt-4-0613"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better formatted and clearly structured, making it easier to read and understand the content.
+2. Response 1 provides a concise and complete summary of the content without unnecessary repetition, while Response 2 includes repetitive phrases such as ""机动车整车出厂合格证"" and ""描述了"".
+3. Response 1 includes all the key components of the content, while Response 2 adds unnecessary details with phrases like ""|||描述了"" which do not add value to the semantic chunking."
+"question6;gpt-4-0613;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 1、机动车整车厂生产的汽车、摩托车、挂车，其出厂合格证明是该厂出具的机动车整车出厂合格证；&#10;2、使用国产或者进口底盘改装的机动车，其出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;3、使用国产或者进口整车改装的机动车，其出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;4、监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车，未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代。"	"1:::机动车整车厂生产的汽车...机动车整车出厂合格证|||描述了机动车整车厂生产的汽车、摩托车、挂车的出厂合格证明是由该厂出具的机动车整车出厂合格证。
+2:::使用国产或者进口底盘改装的机动车...机动车整车出厂合格证|||描述了使用国产或进口底盘改装的机动车的出厂合格证明是由机动车底盘生产厂或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证。
+3:::使用国产或者进口整车改装的机动车...机动车整车出厂合格证|||描述了使用国产或进口整车改装的机动车的出厂合格证明是由机动车生产厂或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证。
+4:::监察机关、人民法院、人民检察院或者行政执法机关依法扣留...证明替代|||描述了未注册登记的国产机动车如果未能提供出厂合格证明，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代。"	"1:::机动车整车厂生产的汽车...出厂合格证明是该厂出具的机动车整车出厂合格证
+2:::使用国产或者进口底盘改装的机动车...出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证
+3:::使用国产或者进口整车改装的机动车...出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证
+4:::监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车...未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代"	"gpt-4-0613"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better formatted and clearly structured, with each point being clearly delineated and explained.
+2. Response 1 provides a more detailed and comprehensive explanation of each point, ensuring that all key components are covered.
+3. Response 1 is not verbose or repetitive, and it does not miss any required key components."
+"question7;gpt-3.5-turbo-1106;gpt-4-0613"	"Semantic chunking of the following content: 1、进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》；&#10;2、其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》；&#10;3、海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》；&#10;4、国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》。"	"1:::进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》|||进口汽车的进口凭证
+2:::其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》|||其他进口机动车的进口凭证
+3:::海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》|||海关监管的机动车的进口凭证
+4:::国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》|||国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证"	"1:::进口汽车的进口凭证...《货物进口证明书》|||描述了进口汽车的进口凭证是由国家限定口岸海关签发的《货物进口证明书》
+2:::其他进口机动车的进口凭证...《货物进口证明书》|||描述了其他进口机动车的进口凭证是由各口岸海关签发的《货物进口证明书》
+3:::海关监管的机动车的进口凭证...（销）牌照通知书》|||描述了海关监管的机动车的进口凭证是由监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》
+4:::国家授权的执法部门没收的走私...《没收走私汽车、摩托车证明书》|||描述了国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证是该部门签发的《没收走私汽车、摩托车证明书》"	"gpt-3.5-turbo-1106"	"gpt-4-0613"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 is better structured and clearly formatted, providing a concise and direct translation of each chunk of the content.
+2. Response 1 is more succinct and does not contain unnecessary repetition, while Response 2 includes unnecessary ellipses and repetition of the same information.
+3. Response 1 includes all the required key components without any omissions, while Response 2 includes some unnecessary repetition and does not add any additional value to the translation."
+"question7;gpt-4-0613;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 1、进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》；&#10;2、其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》；&#10;3、海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》；&#10;4、国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》。"	"1:::进口汽车的进口凭证...《货物进口证明书》|||描述了进口汽车的进口凭证是由国家限定口岸海关签发的《货物进口证明书》
+2:::其他进口机动车的进口凭证...《货物进口证明书》|||描述了其他进口机动车的进口凭证是由各口岸海关签发的《货物进口证明书》
+3:::海关监管的机动车的进口凭证...（销）牌照通知书》|||描述了海关监管的机动车的进口凭证是由监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》
+4:::国家授权的执法部门没收的走私...《没收走私汽车、摩托车证明书》|||描述了国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证是该部门签发的《没收走私汽车、摩托车证明书》"	"1:::进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》|||进口汽车的进口凭证
+2:::其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》|||其他进口机动车的进口凭证
+3:::海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》|||海关监管的机动车的进口凭证
+4:::国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》|||国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证"	"gpt-4-0613"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: B
+Reason:
+1. Response 2 is better structured and more concise, providing the necessary information without unnecessary repetition.
+2. Response 2 clearly presents the semantic chunking of the content, making it easier to understand and follow."
+"question8;gpt-3.5-turbo-1106;gpt-4-0613"	"Semantic chunking of the following content: 请先与转入地交管部门确认是否能接收该车，如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场。办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记。在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市。完成交易后，买方可向交易地车辆管理所申请办理转入手续。京牌小客车完成过户手续后，原车主可以申请更新指标。"	"1:::[请先与转入地交管部门确认是否能接收该车]|||[确认是否能接收该车]
+2:::[如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场]|||[选择在下列机动车交易市场办理交易]
+3:::[办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记]|||[办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记]
+4:::[在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市]|||[在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续]
+5:::[完成交易后，买方可向交易地车辆管理所申请办理转入手续]|||[完成交易后，买方可向交易地车辆管理所申请办理转入手续]
+6:::[京牌小客车完成过户手续后，原车主可以申请更新指标]|||[京牌小客车完成过户手续后，原车主可以申请更新指标]"	"1:::请先与转入地交管部门确认是否能接收该车...在下列机动车交易市场办理交易|||咨询转入地交管部门并选择交易市场
+2:::盛鑫旧机动车交易市场、东方旧机动车交易市场...北京北方汽车交易市场。|||列举可选的交易市场
+3:::办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记。|||交易完成后的转让登记步骤
+4:::在异地使用的京牌小客车或摩托车...无需再将车辆开回本市。|||异地使用京牌车辆的交易步骤
+5:::完成交易后，买方可向交易地车辆管理所申请办理转入手续。|||交易完成后的转入手续步骤
+6:::京牌小客车完成过户手续后，原车主可以申请更新指标。|||过户完成后原车主的后续操作"	"gpt-3.5-turbo-1106"	"gpt-4-0613"	""	""	"semantic chunking"	"Choice: B
+Reason:
+1. Response 2 provides a more concise and clear semantic chunking of the content, making it easier to understand the key components of the process.
+2. Response 2 avoids unnecessary repetition and is well-structured, providing a clear breakdown of the steps involved in the process.
+3. Response 2 is well-formatted and clearly-structured, earning extra credit based on the scoring criteria."
+"question8;gpt-4-0613;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 请先与转入地交管部门确认是否能接收该车，如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场。办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记。在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市。完成交易后，买方可向交易地车辆管理所申请办理转入手续。京牌小客车完成过户手续后，原车主可以申请更新指标。"	"1:::请先与转入地交管部门确认是否能接收该车...在下列机动车交易市场办理交易|||咨询转入地交管部门并选择交易市场
+2:::盛鑫旧机动车交易市场、东方旧机动车交易市场...北京北方汽车交易市场。|||列举可选的交易市场
+3:::办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记。|||交易完成后的转让登记步骤
+4:::在异地使用的京牌小客车或摩托车...无需再将车辆开回本市。|||异地使用京牌车辆的交易步骤
+5:::完成交易后，买方可向交易地车辆管理所申请办理转入手续。|||交易完成后的转入手续步骤
+6:::京牌小客车完成过户手续后，原车主可以申请更新指标。|||过户完成后原车主的后续操作"	"1:::[请先与转入地交管部门确认是否能接收该车]|||[确认是否能接收该车]
+2:::[如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场]|||[选择在下列机动车交易市场办理交易]
+3:::[办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记]|||[办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记]
+4:::[在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市]|||[在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续]
+5:::[完成交易后，买方可向交易地车辆管理所申请办理转入手续]|||[完成交易后，买方可向交易地车辆管理所申请办理转入手续]
+6:::[京牌小客车完成过户手续后，原车主可以申请更新指标]|||[京牌小客车完成过户手续后，原车主可以申请更新指标]"	"gpt-4-0613"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 provides a clear and well-structured breakdown of the content into semantic chunks, making it easier to understand the steps involved in the process.
+2. Response 1 avoids unnecessary repetition and is concise in presenting the key components of the content.
+3. Both responses are well-formatted and clearly-structured, but Response 1 provides a more comprehensive breakdown of the content, giving it an edge over Response 2."
+"question9;gpt-3.5-turbo-1106;gpt-4-0613"	"Semantic chunking of the following content: 您好，外省区市号牌小客车转入本市手续流程如下：&#10;1、若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。&#10;若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。&#10;2、申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。需携带以下材料：&#10;（1）现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；&#10;（2）由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;&#10;（3）机动车登记证书；&#10;（4）机动车行驶证；&#10;（5）机动车来历证明（发票）；&#10;（6）超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；&#10;（7）申请小、微载客汽车转让登记或转入本市的，还需提交本市小客车配置或更新指标确认通知书。&#10;若现机动车所有人是单位，身份证明是：单位的《组织机构代码证书》或包含统一社会信用代码的证件、加盖单位公章的委托书和被委托人的身份证明。"	"1:::您好，外省区市号牌小客车转入本市手续流程如下：|||外省区市号牌小客车转入本市手续流程如下
+2:::若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。|||申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续
+3:::申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。|||申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续，最后再办理转入本市手续
+4:::若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。|||转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案
+5:::申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。|||申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理
+6:::需携带以下材料：|||需携带以下材料
+7:::现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；|||现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明
+8:::由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;|||由代理人代理的，还需提交代理人身份证明，以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书
+9:::机动车登记证书；|||机动车登记证书
+10:::机动车行驶证；|||机动车行驶证
+11:::机动车来历证明（发票）；|||机动车来历证明（发票）
+12:::超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；|||超过检验有效期的机动车，"	"1:::您好，外省区市号牌小客车转入本市手续流程如下...办理转入本市手续。|||介绍了外省区市号牌小客车转入本市的手续流程
+2:::若转入的车辆在申请人本人名下...无需提取纸质档案。|||说明了如果车辆在申请人名下，可以通过APP办理电子化转籍业务
+3:::申请人选任选盛华、通州...机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；|||列出了申请人可以选择的新车检测场，并说明了需要携带的材料
+4:::由代理人代理的，还需提交代理人身份证明...代理人无需提交纸质委托书；|||描述了如果由代理人代理，需要提交的额外材料
+5:::机动车登记证书；...交通事故责任强制保险凭证；|||列出了办理手续需要的其他证明材料
+6:::申请小、微载客汽车转让登记或转入本市的...被委托人的身份证明。|||说明了如果申请小、微载客汽车转让登记或转入本市，需要提交的额外材料，并给出了单位作为机动车所有人时的身份证明要求"	"gpt-3.5-turbo-1106"	"gpt-4-0613"	""	""	"semantic chunking"	"Choice: B
+Reason:
+1. Response 2 provides a clear and concise semantic chunking of the content, making it easier to understand the process and requirements.
+2. Response 2 does not contain any unnecessary repetition or verbosity, maintaining a good level of conciseness.
+3. The structure of Response 2 is well-formatted and clearly-structured, providing a logical flow of information."
+"question9;gpt-4-0613;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 您好，外省区市号牌小客车转入本市手续流程如下：&#10;1、若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。&#10;若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。&#10;2、申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。需携带以下材料：&#10;（1）现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；&#10;（2）由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;&#10;（3）机动车登记证书；&#10;（4）机动车行驶证；&#10;（5）机动车来历证明（发票）；&#10;（6）超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；&#10;（7）申请小、微载客汽车转让登记或转入本市的，还需提交本市小客车配置或更新指标确认通知书。&#10;若现机动车所有人是单位，身份证明是：单位的《组织机构代码证书》或包含统一社会信用代码的证件、加盖单位公章的委托书和被委托人的身份证明。"	"1:::您好，外省区市号牌小客车转入本市手续流程如下...办理转入本市手续。|||介绍了外省区市号牌小客车转入本市的手续流程
+2:::若转入的车辆在申请人本人名下...无需提取纸质档案。|||说明了如果车辆在申请人名下，可以通过APP办理电子化转籍业务
+3:::申请人选任选盛华、通州...机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；|||列出了申请人可以选择的新车检测场，并说明了需要携带的材料
+4:::由代理人代理的，还需提交代理人身份证明...代理人无需提交纸质委托书；|||描述了如果由代理人代理，需要提交的额外材料
+5:::机动车登记证书；...交通事故责任强制保险凭证；|||列出了办理手续需要的其他证明材料
+6:::申请小、微载客汽车转让登记或转入本市的...被委托人的身份证明。|||说明了如果申请小、微载客汽车转让登记或转入本市，需要提交的额外材料，并给出了单位作为机动车所有人时的身份证明要求"	"1:::您好，外省区市号牌小客车转入本市手续流程如下：|||外省区市号牌小客车转入本市手续流程如下
+2:::若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。|||申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续
+3:::申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。|||申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续，最后再办理转入本市手续
+4:::若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。|||转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案
+5:::申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。|||申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理
+6:::需携带以下材料：|||需携带以下材料
+7:::现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；|||现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明
+8:::由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;|||由代理人代理的，还需提交代理人身份证明，以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书
+9:::机动车登记证书；|||机动车登记证书
+10:::机动车行驶证；|||机动车行驶证
+11:::机动车来历证明（发票）；|||机动车来历证明（发票）
+12:::超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；|||超过检验有效期的机动车，"	"gpt-4-0613"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"Choice: A
+Reason:
+1. Response 1 provides a clear and well-structured breakdown of the process, including the steps and requirements for transferring a vehicle from another province to the local city. It is well-formatted and clearly-structured, giving it extra credit.
+2. Response 2, while also providing a breakdown of the process, is more repetitive and verbose in its presentation. It lacks the clear structure and formatting seen in Response 1, which detracts from its overall quality."
+"question0;gpt-3.5-turbo-1106;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。"	"1:::[购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，]|||[购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，]
+2:::[北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。]|||[北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。]
+3:::[另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。]|||[另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。]"	"1:::[购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，]|||[购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，]
+2:::[北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。]|||[北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。]
+3:::[另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。]|||[另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。]"	"gpt-3.5-turbo-1106"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"EM"
+"question0;gpt-3.5-turbo-1106;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。"	"1:::[购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，]|||[购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，]
+2:::[北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。]|||[北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。]
+3:::[另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。]|||[另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。]"	"1:::[购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，]|||[购买新车后没有明确要求多长时间内必须办理上牌手续，但是受一些其它情况的限制，比如环保的要求，]
+2:::[北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。]|||[北京的汽车尾气排放环保标准是在逐渐提高的，如果买的车很长时间没有办理上牌手续，环保标准提高了以后车辆可能就达不到新的标准，就不能上牌。]
+3:::[另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。]|||[另外，国产机动车要通过国家批准通告才能生产销售，如果买了车长期不上牌，通告有可能取消或发生变更，这种情况也会影响新车的上牌。]"	"gpt-3.5-turbo-1106"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"EM"
+"question1;gpt-3.5-turbo-1106;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 办理新车上牌手续可以由他人代办，需要提供车主本人的身份证（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书。其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明。机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书。"	"1:::[办理新车上牌手续可以由他人代办，需要提供车主本人的身份证]|||[办理新车上牌手续可以由他人代办]
+2:::[（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书]|||[需要提供车主本人的身份证；若车主身份证是外地核发的，还需提供居住证或居住登记卡，代办人的身份证以及车主出具的书面委托书]
+3:::[其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明]|||[其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明]
+4:::[机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书]|||[机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书]"	"1:::[办理新车上牌手续可以由他人代办，需要提供车主本人的身份证]|||[办理新车上牌手续可以由他人代办]
+2:::[（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书]|||[需要提供车主本人的身份证；若车主身份证是外地核发的，还需提供居住证或居住登记卡，代办人的身份证以及车主出具的书面委托书]
+3:::[其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明]|||[其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明]
+4:::[机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书]|||[机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书]"	"gpt-3.5-turbo-1106"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"EM"
+"question1;gpt-3.5-turbo-1106;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 办理新车上牌手续可以由他人代办，需要提供车主本人的身份证（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书。其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明。机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书。"	"1:::[办理新车上牌手续可以由他人代办，需要提供车主本人的身份证]|||[办理新车上牌手续可以由他人代办]
+2:::[（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书]|||[需要提供车主本人的身份证；若车主身份证是外地核发的，还需提供居住证或居住登记卡，代办人的身份证以及车主出具的书面委托书]
+3:::[其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明]|||[其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明]
+4:::[机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书]|||[机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书]"	"1:::[办理新车上牌手续可以由他人代办，需要提供车主本人的身份证]|||[办理新车上牌手续可以由他人代办]
+2:::[（若车主身份证是外地核发的，还需提供居住证或居住登记卡），代办人的身份证以及车主出具的书面委托书]|||[需要提供车主本人的身份证；若车主身份证是外地核发的，还需提供居住证或居住登记卡，代办人的身份证以及车主出具的书面委托书]
+3:::[其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明]|||[其中申请小型、微型非营运载客汽车注册登记的免予提交居住证明]
+4:::[机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书]|||[机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书]"	"gpt-3.5-turbo-1106"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"EM"
+"question2;gpt-3.5-turbo-1106;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 机动车在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"1:::[机动车]...[注销登记]|||在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。
+2:::[原机动车所有人]...[申请办理机动车转移登记时]|||但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。
+3:::[申请人符合以上条件]...[直接告知工作人员申请使用原号牌]|||若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"1:::[机动车]...[注销登记]|||在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。
+2:::[原机动车所有人]...[申请办理机动车转移登记时]|||但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。
+3:::[申请人符合以上条件]...[直接告知工作人员申请使用原号牌]|||若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"gpt-3.5-turbo-1106"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"EM"
+"question2;gpt-3.5-turbo-1106;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 机动车在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"1:::[机动车]...[注销登记]|||在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。
+2:::[原机动车所有人]...[申请办理机动车转移登记时]|||但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。
+3:::[申请人符合以上条件]...[直接告知工作人员申请使用原号牌]|||若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"1:::[机动车]...[注销登记]|||在办理转移登记或者注销登记后，原机动车所有人申请办理机动车转移登记时，可以申请使用原机动车号牌号码。
+2:::[原机动车所有人]...[申请办理机动车转移登记时]|||但应当符合下列条件：（1）在办理机动车迁出、共同所有人变更、转让登记或者注销登记后两年内提出申请；（2）机动车所有人拥有原机动车且使用原号牌号码一年以上；（3）涉及原机动车的道路交通安全违法行为和交通事故处理完毕。
+3:::[申请人符合以上条件]...[直接告知工作人员申请使用原号牌]|||若申请人符合以上条件，则可在办理新车上牌手续或者二手车过户时直接告知工作人员申请使用原号牌。"	"gpt-3.5-turbo-1106"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"EM"
+"question3;gpt-3.5-turbo-1106;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”。本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证。"	"1:::依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”|||摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制
+2:::本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证|||本市在城六区内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证"	"1:::依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”|||摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制
+2:::本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证|||本市在城六区内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证"	"gpt-3.5-turbo-1106"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"EM"
+"question3;gpt-3.5-turbo-1106;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”。本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证。"	"1:::依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”|||摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制
+2:::本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证|||本市在城六区内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证"	"1:::依据《北京市实施〈中华人民共和国道路交通安全法〉办法》第十一条的规定：“摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制”|||摩托车和道路专项作业车辆登记，应当符合本市的交通发展规划，在限定的区域内实行总量控制
+2:::本市在城六区（东城、西城、朝阳、海淀、丰台、石景山）内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证|||本市在城六区内停止新增摩托车注册登记，仅限办理身份证明记载的住所地址为远郊区县的核发京B号牌摩托车牌证"	"gpt-3.5-turbo-1106"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"EM"
+"question4;gpt-3.5-turbo-1106;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。"	"1:::[您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。]|||[完成注册后可在网上根据提示进行预选号牌操作]
+2:::[如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。]|||[您可在互联网平台上进行模拟选号或者查看操作指南]
+3:::[另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。]|||[异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理]
+4:::[如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。]|||[通过现场“50选1”的方式进行选号]
+5:::[或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。]|||[提出申请使用原号牌]
+6:::[但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。]|||[若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌]"	"1:::[您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。]|||[完成注册后可在网上根据提示进行预选号牌操作]
+2:::[如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。]|||[您可在互联网平台上进行模拟选号或者查看操作指南]
+3:::[另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。]|||[异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理]
+4:::[如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。]|||[通过现场“50选1”的方式进行选号]
+5:::[或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。]|||[提出申请使用原号牌]
+6:::[但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。]|||[若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌]"	"gpt-3.5-turbo-1106"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"EM"
+"question4;gpt-3.5-turbo-1106;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。"	"1:::[您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。]|||[完成注册后可在网上根据提示进行预选号牌操作]
+2:::[如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。]|||[您可在互联网平台上进行模拟选号或者查看操作指南]
+3:::[另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。]|||[异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理]
+4:::[如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。]|||[通过现场“50选1”的方式进行选号]
+5:::[或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。]|||[提出申请使用原号牌]
+6:::[但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。]|||[若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌]"	"1:::[您可下载“交管12123”APP或者登录（https://bj.122.gov.cn）互联网服务平台，完成注册后可在网上根据提示进行预选号牌操作。]|||[完成注册后可在网上根据提示进行预选号牌操作]
+2:::[如有疑问，您可在互联网平台上进行模拟选号或者查看操作指南，或者也可在“交管12123”APP中“服务中心”—“业务指南”里查看相关流程图解。]|||[您可在互联网平台上进行模拟选号或者查看操作指南]
+3:::[另外，除新车选号可以在线办理外，异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理。]|||[异地转入选号、本地二手车过户选号、新能源车换发号牌预选号牌均可在线办理]
+4:::[如果对网上选号不满意，申请人还可以在办理上牌手续时，通过现场“50选1”的方式进行选号。]|||[通过现场“50选1”的方式进行选号]
+5:::[或者也可提出申请使用原号牌，如果符合条件并通过审核，可以继续使用原号牌。]|||[提出申请使用原号牌]
+6:::[但需要注意的是，网上预选号成功后，若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌。]|||[若未在预选号有效期内到车管所确认互联网预选号牌，用户将被加入黑名单，两年内不可再通过互联网预选号牌]"	"gpt-3.5-turbo-1106"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"EM"
+"question5;gpt-3.5-turbo-1106;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 1、在国内购买的机动车，其来历证明是全国统一的机动车销售发票。在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；2、机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。"	"1:::在国内购买的机动车，其来历证明是全国统一的机动车销售发票。|||国内购买的机动车
+2:::在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；|||国外购买的机动车
+3:::机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。|||机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车"	"1:::在国内购买的机动车，其来历证明是全国统一的机动车销售发票。|||国内购买的机动车
+2:::在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；|||国外购买的机动车
+3:::机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。|||机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车"	"gpt-3.5-turbo-1106"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"EM"
+"question5;gpt-3.5-turbo-1106;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 1、在国内购买的机动车，其来历证明是全国统一的机动车销售发票。在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；2、机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。"	"1:::在国内购买的机动车，其来历证明是全国统一的机动车销售发票。|||国内购买的机动车
+2:::在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；|||国外购买的机动车
+3:::机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。|||机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车"	"1:::在国内购买的机动车，其来历证明是全国统一的机动车销售发票。|||国内购买的机动车
+2:::在国外购买的机动车，其来历证明是该车销售单位开具的销售发票及其翻译文本，但海关监管的机动车不需提供来历证明；|||国外购买的机动车
+3:::机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车，其来历证明是全国统一的机动车销售发票和该部门出具的调拨证明。|||机关、企业、事业单位和社会团体统一采购并调拨到下属单位未注册登记的机动车"	"gpt-3.5-turbo-1106"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"EM"
+"question6;gpt-3.5-turbo-1106;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 1、机动车整车厂生产的汽车、摩托车、挂车，其出厂合格证明是该厂出具的机动车整车出厂合格证；&#10;2、使用国产或者进口底盘改装的机动车，其出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;3、使用国产或者进口整车改装的机动车，其出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;4、监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车，未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代。"	"1:::机动车整车厂生产的汽车...出厂合格证明是该厂出具的机动车整车出厂合格证
+2:::使用国产或者进口底盘改装的机动车...出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证
+3:::使用国产或者进口整车改装的机动车...出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证
+4:::监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车...未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代"	"1:::机动车整车厂生产的汽车...出厂合格证明是该厂出具的机动车整车出厂合格证
+2:::使用国产或者进口底盘改装的机动车...出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证
+3:::使用国产或者进口整车改装的机动车...出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证
+4:::监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车...未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代"	"gpt-3.5-turbo-1106"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"EM"
+"question6;gpt-3.5-turbo-1106;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 1、机动车整车厂生产的汽车、摩托车、挂车，其出厂合格证明是该厂出具的机动车整车出厂合格证；&#10;2、使用国产或者进口底盘改装的机动车，其出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;3、使用国产或者进口整车改装的机动车，其出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证；&#10;4、监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车，未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代。"	"1:::机动车整车厂生产的汽车...出厂合格证明是该厂出具的机动车整车出厂合格证
+2:::使用国产或者进口底盘改装的机动车...出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证
+3:::使用国产或者进口整车改装的机动车...出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证
+4:::监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车...未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代"	"1:::机动车整车厂生产的汽车...出厂合格证明是该厂出具的机动车整车出厂合格证
+2:::使用国产或者进口底盘改装的机动车...出厂合格证明是机动车底盘生产厂出具的机动车底盘出厂合格证或者进口机动车底盘的进口凭证和机动车改装厂出具的机动车整车出厂合格证
+3:::使用国产或者进口整车改装的机动车...出厂合格证明是机动车生产厂出具的机动车整车出厂合格证或者进口机动车的进口凭证和机动车改装厂出具的机动车整车出厂合格证
+4:::监察机关、人民法院、人民检察院或者行政执法机关依法扣留、没收并拍卖的未注册登记的国产机动车...未能提供出厂合格证明的，可以凭监察机关、人民法院、人民检察院或者行政执法机关出具的证明替代"	"gpt-3.5-turbo-1106"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"EM"
+"question7;gpt-3.5-turbo-1106;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 1、进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》；&#10;2、其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》；&#10;3、海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》；&#10;4、国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》。"	"1:::进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》|||进口汽车的进口凭证
+2:::其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》|||其他进口机动车的进口凭证
+3:::海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》|||海关监管的机动车的进口凭证
+4:::国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》|||国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证"	"1:::进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》|||进口汽车的进口凭证
+2:::其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》|||其他进口机动车的进口凭证
+3:::海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》|||海关监管的机动车的进口凭证
+4:::国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》|||国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证"	"gpt-3.5-turbo-1106"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"EM"
+"question7;gpt-3.5-turbo-1106;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 1、进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》；&#10;2、其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》；&#10;3、海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》；&#10;4、国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》。"	"1:::进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》|||进口汽车的进口凭证
+2:::其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》|||其他进口机动车的进口凭证
+3:::海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》|||海关监管的机动车的进口凭证
+4:::国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》|||国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证"	"1:::进口汽车的进口凭证，是国家限定口岸海关签发的《货物进口证明书》|||进口汽车的进口凭证
+2:::其他进口机动车的进口凭证，是各口岸海关签发的《货物进口证明书》|||其他进口机动车的进口凭证
+3:::海关监管的机动车的进口凭证，是监管地海关出具的《中华人民共和国海关监管车辆进（出）境领（销）牌照通知书》|||海关监管的机动车的进口凭证
+4:::国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证，是该部门签发的《没收走私汽车、摩托车证明书》|||国家授权的执法部门没收的走私、无进口证明和利用进口关键件非法拼（组）装的机动车的进口凭证"	"gpt-3.5-turbo-1106"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"EM"
+"question8;gpt-3.5-turbo-1106;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 请先与转入地交管部门确认是否能接收该车，如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场。办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记。在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市。完成交易后，买方可向交易地车辆管理所申请办理转入手续。京牌小客车完成过户手续后，原车主可以申请更新指标。"	"1:::[请先与转入地交管部门确认是否能接收该车]|||[确认是否能接收该车]
+2:::[如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场]|||[选择在下列机动车交易市场办理交易]
+3:::[办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记]|||[办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记]
+4:::[在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市]|||[在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续]
+5:::[完成交易后，买方可向交易地车辆管理所申请办理转入手续]|||[完成交易后，买方可向交易地车辆管理所申请办理转入手续]
+6:::[京牌小客车完成过户手续后，原车主可以申请更新指标]|||[京牌小客车完成过户手续后，原车主可以申请更新指标]"	"1:::[请先与转入地交管部门确认是否能接收该车]|||[确认是否能接收该车]
+2:::[如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场]|||[选择在下列机动车交易市场办理交易]
+3:::[办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记]|||[办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记]
+4:::[在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市]|||[在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续]
+5:::[完成交易后，买方可向交易地车辆管理所申请办理转入手续]|||[完成交易后，买方可向交易地车辆管理所申请办理转入手续]
+6:::[京牌小客车完成过户手续后，原车主可以申请更新指标]|||[京牌小客车完成过户手续后，原车主可以申请更新指标]"	"gpt-3.5-turbo-1106"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"EM"
+"question8;gpt-3.5-turbo-1106;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 请先与转入地交管部门确认是否能接收该车，如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场。办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记。在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市。完成交易后，买方可向交易地车辆管理所申请办理转入手续。京牌小客车完成过户手续后，原车主可以申请更新指标。"	"1:::[请先与转入地交管部门确认是否能接收该车]|||[确认是否能接收该车]
+2:::[如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场]|||[选择在下列机动车交易市场办理交易]
+3:::[办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记]|||[办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记]
+4:::[在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市]|||[在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续]
+5:::[完成交易后，买方可向交易地车辆管理所申请办理转入手续]|||[完成交易后，买方可向交易地车辆管理所申请办理转入手续]
+6:::[京牌小客车完成过户手续后，原车主可以申请更新指标]|||[京牌小客车完成过户手续后，原车主可以申请更新指标]"	"1:::[请先与转入地交管部门确认是否能接收该车]|||[确认是否能接收该车]
+2:::[如果可以接收，车主与买方可选择在下列机动车交易市场办理交易：盛鑫旧机动车交易市场、东方旧机动车交易市场、中联旧机动车交易市场、新发地二手车交易市场、顺潮东旧机动车交易市场（俸伯）、顺潮东旧机动车交易市场第二办公区（南法信）、北京市旧机动车交易市场、北辰亚运村旧机动车交易市场、北京北方汽车交易市场]|||[选择在下列机动车交易市场办理交易]
+3:::[办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记]|||[办理完交易手续后，买方可直接在市场内车管所办公窗口办理转让登记]
+4:::[在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续，无需再将车辆开回本市]|||[在异地使用的京牌小客车或摩托车，如果车主准备将车辆过户至当地，买卖双方可直接在当地二手车交易市场办理交易手续]
+5:::[完成交易后，买方可向交易地车辆管理所申请办理转入手续]|||[完成交易后，买方可向交易地车辆管理所申请办理转入手续]
+6:::[京牌小客车完成过户手续后，原车主可以申请更新指标]|||[京牌小客车完成过户手续后，原车主可以申请更新指标]"	"gpt-3.5-turbo-1106"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"EM"
+"question9;gpt-3.5-turbo-1106;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 您好，外省区市号牌小客车转入本市手续流程如下：&#10;1、若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。&#10;若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。&#10;2、申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。需携带以下材料：&#10;（1）现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；&#10;（2）由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;&#10;（3）机动车登记证书；&#10;（4）机动车行驶证；&#10;（5）机动车来历证明（发票）；&#10;（6）超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；&#10;（7）申请小、微载客汽车转让登记或转入本市的，还需提交本市小客车配置或更新指标确认通知书。&#10;若现机动车所有人是单位，身份证明是：单位的《组织机构代码证书》或包含统一社会信用代码的证件、加盖单位公章的委托书和被委托人的身份证明。"	"1:::您好，外省区市号牌小客车转入本市手续流程如下：|||外省区市号牌小客车转入本市手续流程如下
+2:::若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。|||申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续
+3:::申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。|||申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续，最后再办理转入本市手续
+4:::若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。|||转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案
+5:::申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。|||申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理
+6:::需携带以下材料：|||需携带以下材料
+7:::现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；|||现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明
+8:::由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;|||由代理人代理的，还需提交代理人身份证明，以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书
+9:::机动车登记证书；|||机动车登记证书
+10:::机动车行驶证；|||机动车行驶证
+11:::机动车来历证明（发票）；|||机动车来历证明（发票）
+12:::超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；|||超过检验有效期的机动车，"	"1:::您好，外省区市号牌小客车转入本市手续流程如下：|||外省区市号牌小客车转入本市手续流程如下
+2:::若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。|||申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续
+3:::申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。|||申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续，最后再办理转入本市手续
+4:::若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。|||转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案
+5:::申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。|||申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理
+6:::需携带以下材料：|||需携带以下材料
+7:::现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；|||现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明
+8:::由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;|||由代理人代理的，还需提交代理人身份证明，以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书
+9:::机动车登记证书；|||机动车登记证书
+10:::机动车行驶证；|||机动车行驶证
+11:::机动车来历证明（发票）；|||机动车来历证明（发票）
+12:::超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；|||超过检验有效期的机动车，"	"gpt-3.5-turbo-1106"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"EM"
+"question9;gpt-3.5-turbo-1106;gpt-3.5-turbo-1106"	"Semantic chunking of the following content: 您好，外省区市号牌小客车转入本市手续流程如下：&#10;1、若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。&#10;若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。&#10;2、申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。需携带以下材料：&#10;（1）现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；&#10;（2）由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;&#10;（3）机动车登记证书；&#10;（4）机动车行驶证；&#10;（5）机动车来历证明（发票）；&#10;（6）超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；&#10;（7）申请小、微载客汽车转让登记或转入本市的，还需提交本市小客车配置或更新指标确认通知书。&#10;若现机动车所有人是单位，身份证明是：单位的《组织机构代码证书》或包含统一社会信用代码的证件、加盖单位公章的委托书和被委托人的身份证明。"	"1:::您好，外省区市号牌小客车转入本市手续流程如下：|||外省区市号牌小客车转入本市手续流程如下
+2:::若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。|||申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续
+3:::申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。|||申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续，最后再办理转入本市手续
+4:::若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。|||转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案
+5:::申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。|||申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理
+6:::需携带以下材料：|||需携带以下材料
+7:::现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；|||现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明
+8:::由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;|||由代理人代理的，还需提交代理人身份证明，以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书
+9:::机动车登记证书；|||机动车登记证书
+10:::机动车行驶证；|||机动车行驶证
+11:::机动车来历证明（发票）；|||机动车来历证明（发票）
+12:::超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；|||超过检验有效期的机动车，"	"1:::您好，外省区市号牌小客车转入本市手续流程如下：|||外省区市号牌小客车转入本市手续流程如下
+2:::若申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续。|||申请人已取得本市小客车购车指标，并且在外省市购买的二手小客车符合本市环保标准，则可办理转入本市手续
+3:::申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续（具体事宜需咨询当地交管部门），最后再办理转入本市手续。|||申请人和卖方在车辆注册地办理交易过户手续，之后办理提档转出手续，最后再办理转入本市手续
+4:::若转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案。|||转入的车辆在申请人本人名下，那么也可下载“交管12123”APP，申请办理电子化转籍业务，无需提取纸质档案
+5:::申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理。|||申请人选任选盛华、通州、学院路、岳各庄、京顺、空港方兴、7421、北方等8家新车检测场办理
+6:::需携带以下材料：|||需携带以下材料
+7:::现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明；|||现机动车所有人身份证；属于小型、微型非营运载客汽车办理转让登记业务的，机动车所有人免予提交公安机关核发的居住证明或者居住登记证明
+8:::由代理人代理的，还需提交代理人身份证明（代理人为单位的，还需提交经办人身份证明），以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书;|||由代理人代理的，还需提交代理人身份证明，以及机动车所有人的书面委托,机动车所有人为个人且已通过“交管12123”手机APP申请网上委托的，代理人无需提交纸质委托书
+9:::机动车登记证书；|||机动车登记证书
+10:::机动车行驶证；|||机动车行驶证
+11:::机动车来历证明（发票）；|||机动车来历证明（发票）
+12:::超过检验有效期的机动车，还应当提交机动车安全技术检验合格证明和交通事故责任强制保险凭证；|||超过检验有效期的机动车，"	"gpt-3.5-turbo-1106"	"gpt-3.5-turbo-1106"	""	""	"semantic chunking"	"EM"
