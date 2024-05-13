@@ -31,14 +31,14 @@ def prepare_lc_LLM_data(lc_output_files, LLM_output_files, save_to_path):
 
     # Create the 'index' column
     merged_df.reset_index(inplace=True)
-    merged_df["index"] = merged_df.index.map(lambda x: f"question{x}")  # Use the format "question{index}"
+    merged_df["index"] = merged_df.index.map(lambda x: f"question{x}_semantic-chunking")  # Use the format "question{index}_{task}"
 
     # Create empty 'evaluating_guidance' and 'reference_answer' columns
     merged_df["evaluating_guidance"] = ""
     merged_df["reference_answer"] = ""
 
     # Create the 'task' column with a fixed value
-    merged_df["task"] = "semantic chunking"
+    merged_df["task"] = "semantic-chunking"
 
     # Reorder the columns
     columns_order = ["question", "index", "evaluating_guidance", "task", "reference_answer"]
