@@ -81,3 +81,67 @@ If you want to chunk the same data file with the same judge multiple times, be s
 [smp.py](./LLM_chunking/chunking_util/smp.py) provides helper functions for loading and dumping data files.
 
 [main_LLM_chunking.py](./LLM_chunking/main_LLM_chunking.py) is the main function call for LLM semantic chunking.
+
+
+## LLM-as-a-Judge evaluate chunking
+Module in [here](./LLM-as-a-Judge_evaluation)
+
+### API Config
+If you haven't done so for LLM chunking, do the following API setup:
+
+
+Store your API key in a json file, for example, `keys.json`.
+
+```json
+{
+    "openai-keys":[],
+    "claude-keys":[],
+    "gemini-keys":[]
+}
+```
+
+And then:
+
+```bash
+export KEYS="path/to/keys.json"
+```
+
+
+### Data Preparation
+See [prepare_lc-LLM_data.py](./LLM-as-a-Judge_evaluation/data_preparation/prepare_lc-LLM_data.py) for detail. 
+
+This prepares the `xlsx` or `csv` file (recommend `xlsx`) for LLM Judges to choose the better one between two chunking results - pairwise comparative assessment.
+
+Store the data in [llm_judge/data](./LLM-as-a-Judge_evaluation/llm_judge/data) for later usage.
+
+
+### LLM-as-a-Judge Evaluation
+First go the the llm_judge folder:
+```bash
+cd LLM-as-a-Judge_evluation/llm_judge
+```
+
+Then run the following example script:
+```bash
+python3 subeval/subjective/sub_eval.py --data data/klg_base_10_chunked.csv --model lc-percentile lc-standard_deviation lc-interquartile gpt-3.5-turbo-1106 gpt-4-0613 --refm gpt-3.5-turbo-1106 --judge gpt-3.5-turbo-1106 --eval-nopt 2 --eval-proc 1 --mode dual
+```
+
+or 
+
+```bash
+chmod +x ./scripts/judge_klg_bas_10_3LC_2LLM.sh
+./scripts/judge_klg_bas_10_3LC_2LLM.sh
+```
+
+Revise the scripts as needed.
+
+**Argument Explanation:**
+- `--data`: the relative path to your prepared data file. See [prepare_lc-LLM_data.py](./LLM-as-a-Judge_evaluation/data_preparation/prepare_lc-LLM_data.py) for detailed requirements. 
+- `--model`: a list of models that are going to be evaluated, which should be included in your data file. These models will be all be compared to the `refm`, i.e., the reference/baseline model, that is also included in the data file.
+- `--refm`: the reference or baseline model for comparison. It doesn't matter if you include the reference model in the --model list or not, because the program will discard exact matches.
+- `--judge`: the judge model. Please follow the official use of APIs for judge names.
+- `--eval-nopt`: option mode, i.e., the number of options the judge has.
+    - 2: A is better than B; B is better than A
+    - 3: A is better than B; B is better than A; Tie
+- `--eval-proc`: for mutli-process usage. Recommend to set to 1 to avoid bugs.
+- `--mode`: choose between `random` and `dual`. `dual` means to swap the order of the two responses in the query to LLM judges and evaluate twice (original + swapped). It tells if the judge model makes position bias (i.e., favors that response at a specific position rather than its content).

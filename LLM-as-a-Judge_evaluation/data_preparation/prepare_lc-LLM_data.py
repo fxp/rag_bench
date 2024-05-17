@@ -38,7 +38,7 @@ def prepare_lc_LLM_data(lc_output_files, LLM_output_files, save_to_path):
     merged_df["reference_answer"] = ""
 
     # Create the 'task' column with a fixed value
-    merged_df["task"] = "semantic-chunking"
+    merged_df["task"] = "semantic_chunking"
 
     # Reorder the columns
     columns_order = ["question", "index", "evaluating_guidance", "task", "reference_answer"]
