@@ -12,7 +12,6 @@ import os.path as osp
 from tqdm import tqdm
 import pandas as pd
 from LLM_chunking.chat_api import OpenAIWrapper,ClaudeWrapper, GeminiWrapper
-from LLM_chunking.prompts.system_prompt import build_prompt
 import csv
 
 def llm_semantic_chunk(data, llm, failure_count=5):
@@ -40,6 +39,13 @@ def llm_semantic_chunk(data, llm, failure_count=5):
     tmp_file = osp.join(root, 'tmp.pkl')
     
     # Creates prompts.
+    if "content_to_chunk" not in data.columns:
+        raise ValueError("content_to_chunk column not found!")
+    elif "user_questions" not in data.columns: # Use v1 prompt
+        from LLM_chunking.prompts.system_prompt_v1 import build_prompt
+    else:
+        from LLM_chunking.prompts.system_prompt_v2 import build_prompt
+
     prompts = [build_prompt(data.iloc[i]) for i in range(len(data))]
 
     # print(prompts)
@@ -91,10 +97,10 @@ def llm_semantic_chunk(data, llm, failure_count=5):
     results.index.name = 'id'
 
     # Add the original content column from the `data` DataFrame
-    results = results.join(data[['content_to_chunk']])
+    results = results.join(data[['content_to_chunk','user_questions']])
 
     # Reorder columns to ensure original content appears first
-    results = results[['content_to_chunk', f'semantic_chunking_output-{llm}']]
+    results = results[['content_to_chunk', 'user_questions',f'semantic_chunking_output-{llm}']]
 
     # Saves the combined data to a file using the `dump` function
     dump(results, f'{root}/{target_name}', quoting=csv.QUOTE_ALL)

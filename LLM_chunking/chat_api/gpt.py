@@ -99,19 +99,16 @@ class OpenAIWrapper(BaseAPI):
                     stop=None,
                     temperature=temperature,
                     **kwargs)
-                
                 result = response.choices[0].message.content.strip()
                 self.cur_idx = idx
                 return 0, result, 'API Call Succeed'
-            except:
+            except Exception as e:
                 self.fail_cnt[idx] += 1
+                error_message = str(e)
                 if self.verbose:
                     warnings.warn(f'OPENAI KEY {self.keys[idx]} FAILED !!!')
-                    try:
-                        warnings.warn(response)
-                    except:
-                        pass
-        # x = 1 / 0
+                    warnings.warn(f'Error: {error_message}')
+        return 0, self.fail_msg + 'All keys failed. ', 'All Keys Failed. '
 
     def get_token_len(self, prompt: str) -> int:
         import tiktoken
